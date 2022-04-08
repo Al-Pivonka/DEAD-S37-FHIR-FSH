@@ -11,7 +11,7 @@
       "valueCode": "business"
     }
   ],
-  "url": "http://example.com/fhir/example/StructureDefinition/questionnaire-s37",
+  "url": "http://science37.com/fhir/StructureDefinition/questionnaire-s37",
   "version": "1.0.0",
   "name": "QuestionnaireS37",
   "title": "QuestionnaireS37",
@@ -93,7 +93,7 @@
           {
             "code": "Extension",
             "profile": [
-              "http://example.com/fhir/example/StructureDefinition/s37-settings"
+              "http://science37.com/fhir/StructureDefinition/s37-settings"
             ]
           }
         ],

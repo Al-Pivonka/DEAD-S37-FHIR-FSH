@@ -1,13 +1,13 @@
 
 
-Instance: QuestionnaireS37-Item-Complex-Extension-Example
+Instance: QuestionnaireS37-Item-Extension-Example
 InstanceOf: QuestionnaireS37
 Description: "QuestionnaireS37.Item Extension Example"
 Usage: #example
 * status = #draft
 * description = "Science 37 Questionnaire.Item Form Template Widget Example"
-* title = "The Meaning of Life Form Template"
-* name = "The Meaning of Life Form Template"
+* title = "QuestionnaireS37-Item-Extension-Example"
+* name = "QuestionnaireS37-Item-Extension-Example"
 * version = "1.2k33"
 * subjectType = #Patient
 * item[0].type = #text

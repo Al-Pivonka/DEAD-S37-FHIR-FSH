@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "s37-settings",
-  "url": "http://example.com/fhir/example/StructureDefinition/s37-settings",
+  "url": "http://science37.com/fhir/StructureDefinition/s37-settings",
   "version": "1.0.0",
   "name": "S37Settings",
   "title": "Gerneral Settings Extension",
@@ -869,7 +869,7 @@
       {
         "id": "Extension.url",
         "path": "Extension.url",
-        "fixedUri": "http://example.com/fhir/example/StructureDefinition/s37-settings"
+        "fixedUri": "http://science37.com/fhir/StructureDefinition/s37-settings"
       },
       {
         "id": "Extension.value[x]",

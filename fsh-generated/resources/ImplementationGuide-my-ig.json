@@ -1,9 +1,9 @@
 {
   "resourceType": "ImplementationGuide",
   "id": "my-ig",
-  "url": "http://example.com/fhir/example",
+  "url": "http://science37.com/fhir",
   "version": "1.0.0",
-  "name": "ExampleIG",
+  "name": "S37IG",
   "title": "HL7 FHIR Implementation Guide: Example IG Release 1 - US Realm | STU1",
   "status": "active",
   "date": "2020-02-26",
@@ -14,7 +14,7 @@
       "telecom": [
         {
           "system": "url",
-          "value": "http://example.com/committees"
+          "value": "http://science37.com/committees"
         },
         {
           "system": "email",
@@ -69,11 +69,11 @@
       },
       {
         "reference": {
-          "reference": "Questionnaire/QuestionnaireS37-Item-Complex-Extension-Example"
+          "reference": "Questionnaire/QuestionnaireS37-Item-Extension-Example"
         },
-        "name": "QuestionnaireS37-Item-Complex-Extension-Example",
+        "name": "QuestionnaireS37-Item-Extension-Example",
         "description": "QuestionnaireS37.Item Extension Example",
-        "exampleCanonical": "http://example.com/fhir/example/StructureDefinition/questionnaire-s37"
+        "exampleCanonical": "http://science37.com/fhir/StructureDefinition/questionnaire-s37"
       }
     ],
     "page": {

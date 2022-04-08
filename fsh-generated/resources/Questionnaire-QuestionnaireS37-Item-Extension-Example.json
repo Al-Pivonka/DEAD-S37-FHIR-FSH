@@ -1,16 +1,16 @@
 {
   "resourceType": "Questionnaire",
-  "id": "QuestionnaireS37-Item-Complex-Extension-Example",
+  "id": "QuestionnaireS37-Item-Extension-Example",
   "meta": {
     "profile": [
-      "http://example.com/fhir/example/StructureDefinition/questionnaire-s37"
+      "http://science37.com/fhir/StructureDefinition/questionnaire-s37"
     ]
   },
   "item": [
     {
       "extension": [
         {
-          "url": "http://example.com/fhir/example/StructureDefinition/s37-settings",
+          "url": "http://science37.com/fhir/StructureDefinition/s37-settings",
           "extension": [
             {
               "url": "title",
@@ -178,8 +178,8 @@
   ],
   "status": "draft",
   "description": "Science 37 Questionnaire.Item Form Template Widget Example",
-  "title": "The Meaning of Life Form Template",
-  "name": "The Meaning of Life Form Template",
+  "title": "QuestionnaireS37-Item-Extension-Example",
+  "name": "QuestionnaireS37-Item-Extension-Example",
   "version": "1.2k33",
   "subjectType": [
     "Patient"

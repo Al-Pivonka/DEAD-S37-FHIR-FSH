@@ -1,6 +1,6 @@
 Extension:      S37Settings
 Id:             s37-settings
-Title:          "Gerneral Settings Extension"
+Title:          "S37 Item Setting Extensions applied to Questionnaire.item"
 * ^context.expression = "Questionnaire.item"
 * extension contains
     title 0..1 and

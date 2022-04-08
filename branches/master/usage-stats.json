@@ -238,6 +238,7 @@
         "string",
         "integer",
         "boolean",
+        "string",
         "base64Binary",
         "boolean",
         "canonical",

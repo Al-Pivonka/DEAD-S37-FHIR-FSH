@@ -12,7 +12,7 @@
   <title value="Science37 FHIR IG"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2022-04-08T20:42:59+00:00"/>
+  <date value="2022-04-08T20:51:34+00:00"/>
   <publisher value="xxxYour Work Group"/>
   <contact>
     <telecom>
@@ -248,7 +248,7 @@
       <reference>
         <reference value="StructureDefinition/s37-settings"/>
       </reference>
-      <name value="S37 Item Setting Extensions applied to Questionnaire.item"/>
+      <name value="S37 Extension to Questionnaire.item"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">

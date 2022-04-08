@@ -3,7 +3,7 @@
   "name": "Science37 FHIR IG",
   "package-id": "xxexample.fhir.uv.myig",
   "ig-ver": "0.1.0-test",
-  "date": "Fri, 08 Apr, 2022 20:42:59 +0000",
+  "date": "Fri, 08 Apr, 2022 20:51:34 +0000",
   "errs": 9,
   "warnings": 3,
   "hints": 3,

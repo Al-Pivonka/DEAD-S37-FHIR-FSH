@@ -6,7 +6,7 @@
   "extensions": [
     {
       "url": "http://science37.com/fhir/StructureDefinition/s37-settings",
-      "title": "S37 Item Setting Extensions applied to Questionnaire.item",
+      "title": "S37 Extension to Questionnaire.item",
       "types": [
         "string",
         "string",

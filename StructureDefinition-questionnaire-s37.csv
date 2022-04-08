@@ -135,7 +135,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ",".code"
 "Questionnaire.item.prefix","","label
-","",1,1,"Y","","","string {[]} {[]}
+","",0,1,"","","","string {[]} {[]}
 ","E.g. ""1(a)"", ""2.5.3""","A short label for a particular group, question or set of display text within the questionnaire used for reference by the individual completing the questionnaire.","These are generally unique within a questionnaire, though this is not guaranteed. Some questionnaires may have multiple questions with the same label with logic to control which gets exposed.  Typically, these won't be used for ""display"" items, though such use is not prohibited.  Systems SHOULD NOT generate their own prefixes if prefixes are defined for any items within a Questionnaire.","Separating the label from the question text allows improved rendering.  Also, instructions will often refer to specific prefixes, so there's a need for the questionnaire design to have control over what labels are used.","","","","","","","",,,,,"",,,,"Questionnaire.item.prefix",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","Not supported"
 "Questionnaire.item.text","","","",1,1,"Y","","","string {[]} {[]}

@@ -28,7 +28,7 @@
      fhir:value "Patient";
      fhir:index 0
   ];
-  fhir:Questionnaire.date [ fhir:value "2022-04-08T20:19:51+00:00"^^xsd:dateTime];
+  fhir:Questionnaire.date [ fhir:value "2022-04-08T20:27:55+00:00"^^xsd:dateTime];
   fhir:Questionnaire.publisher [ fhir:value "xxxYour Work Group"];
   fhir:Questionnaire.contact [
      fhir:index 0;
@@ -77,114 +77,118 @@
          fhir:Extension.valueString [ fhir:value "The description" ]
        ], [
          fhir:index 6;
+         fhir:Extension.url [ fhir:value "foid" ];
+         fhir:Extension.valueString [ fhir:value "FOID field Object ID" ]
+       ], [
+         fhir:index 7;
          fhir:Extension.url [ fhir:value "dateTimeOptions" ];
          fhir:Extension.valueString [ fhir:value "Date Time Options" ]
        ], [
-         fhir:index 7;
+         fhir:index 8;
          fhir:Extension.url [ fhir:value "captureTimeonSubmit" ];
          fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
        ], [
-         fhir:index 8;
+         fhir:index 9;
          fhir:Extension.url [ fhir:value "completionPeriodOfTime" ];
          fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
        ], [
-         fhir:index 9;
+         fhir:index 10;
          fhir:Extension.url [ fhir:value "completionNoOfHours" ];
          fhir:Extension.valueInteger [ fhir:value "2"^^xsd:integer ]
        ], [
-         fhir:index 10;
+         fhir:index 11;
          fhir:Extension.url [ fhir:value "completionNoOfMonths" ];
          fhir:Extension.valueInteger [ fhir:value "1"^^xsd:integer ]
        ], [
-         fhir:index 11;
+         fhir:index 12;
          fhir:Extension.url [ fhir:value "completionShouldOccur" ];
          fhir:Extension.valueBoolean [ fhir:value "false"^^xsd:boolean ]
        ], [
-         fhir:index 12;
+         fhir:index 13;
          fhir:Extension.url [ fhir:value "fromText" ];
          fhir:Extension.valueString [ fhir:value "From Text" ]
        ], [
-         fhir:index 13;
+         fhir:index 14;
          fhir:Extension.url [ fhir:value "toText" ];
          fhir:Extension.valueString [ fhir:value "To Text" ]
        ], [
-         fhir:index 14;
+         fhir:index 15;
          fhir:Extension.url [ fhir:value "naOption" ];
          fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
        ], [
-         fhir:index 15;
+         fhir:index 16;
          fhir:Extension.url [ fhir:value "naLabel" ];
          fhir:Extension.valueString [ fhir:value "To Text" ]
        ], [
-         fhir:index 16;
+         fhir:index 17;
          fhir:Extension.url [ fhir:value "displayValueIndicator" ];
          fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
        ], [
-         fhir:index 17;
+         fhir:index 18;
          fhir:Extension.url [ fhir:value "valueIndicatorLabel" ];
          fhir:Extension.valueString [ fhir:value "Value Indicator Label" ]
        ], [
-         fhir:index 18;
+         fhir:index 19;
          fhir:Extension.url [ fhir:value "minValueLabel" ];
          fhir:Extension.valueString [ fhir:value "minValue Label" ]
        ], [
-         fhir:index 19;
+         fhir:index 20;
          fhir:Extension.url [ fhir:value "medValueLabel" ];
          fhir:Extension.valueString [ fhir:value "medValue Label" ]
        ], [
-         fhir:index 20;
+         fhir:index 21;
          fhir:Extension.url [ fhir:value "maxValueLabel" ];
          fhir:Extension.valueString [ fhir:value "maxValue Label" ]
        ], [
-         fhir:index 21;
+         fhir:index 22;
          fhir:Extension.url [ fhir:value "scale" ];
          fhir:Extension.valueInteger [ fhir:value "1"^^xsd:integer ]
        ], [
-         fhir:index 22;
+         fhir:index 23;
          fhir:Extension.url [ fhir:value "formula" ];
          fhir:Extension.valueString [ fhir:value "formula" ]
        ], [
-         fhir:index 23;
+         fhir:index 24;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/maxValue" ];
          fhir:Extension.valueInteger [ fhir:value "200"^^xsd:integer ]
        ], [
-         fhir:index 24;
+         fhir:index 25;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/minValue" ];
          fhir:Extension.valueInteger [ fhir:value "2"^^xsd:integer ]
        ], [
-         fhir:index 25;
+         fhir:index 26;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/minLength" ];
          fhir:Extension.valueInteger [ fhir:value "1"^^xsd:integer ]
        ], [
-         fhir:index 26;
+         fhir:index 27;
          fhir:Extension.url [ fhir:value "maxLength" ];
          fhir:Extension.valueInteger [ fhir:value "22"^^xsd:integer ]
        ], [
-         fhir:index 27;
+         fhir:index 28;
          fhir:Extension.url [ fhir:value "doNotShowNumValue" ];
          fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
        ], [
-         fhir:index 28;
+         fhir:index 29;
          fhir:Extension.url [ fhir:value "showIncrements" ];
          fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
        ], [
-         fhir:index 29;
+         fhir:index 30;
          fhir:Extension.url [ fhir:value "majorIncrements" ];
          fhir:Extension.valueInteger [ fhir:value "5"^^xsd:integer ]
        ], [
-         fhir:index 30;
+         fhir:index 31;
          fhir:Extension.url [ fhir:value "minorIncrements" ];
          fhir:Extension.valueInteger [ fhir:value "1"^^xsd:integer ]
        ], [
-         fhir:index 31;
+         fhir:index 32;
          fhir:Extension.url [ fhir:value "interactionType" ];
          fhir:Extension.valueString [ fhir:value "Iinteraction Type" ]
        ], [
-         fhir:index 32;
+         fhir:index 33;
          fhir:Extension.url [ fhir:value "scaleSize" ];
          fhir:Extension.valueInteger [ fhir:value "3"^^xsd:integer ]
        ], [
-         fhir:index 33;
+         fhir:index 34;
          fhir:Extension.url [ fhir:value "optionalPresets" ];
          fhir:Extension.valueBoolean [ fhir:value "false"^^xsd:boolean ]
        ];

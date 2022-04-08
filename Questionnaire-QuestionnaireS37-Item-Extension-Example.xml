@@ -16,7 +16,7 @@
   <title value="QuestionnaireS37-Item-Extension-Example"/>
   <status value="draft"/>
   <subjectType value="Patient"/>
-  <date value="2022-04-08T20:19:51+00:00"/>
+  <date value="2022-04-08T20:27:55+00:00"/>
   <publisher value="xxxYour Work Group"/>
   <contact>
     <telecom>
@@ -50,6 +50,9 @@
       </extension>
       <extension url="description">
         <valueString value="The description"/>
+      </extension>
+      <extension url="foid">
+        <valueString value="FOID field Object ID"/>
       </extension>
       <extension url="dateTimeOptions">
         <valueString value="Date Time Options"/>

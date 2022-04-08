@@ -1,14 +1,14 @@
-﻿XXYourComputableMyIGNameHere : Validation Results
+﻿Science37 FHIR IG : Validation Results
 =========================================
 
-err = 9, warn = 2, info = 3
+err = 9, warn = 3, info = 3
 IG Publisher Version: 1.1.114
-Generated Fri Apr 08 20:28:17 UTC 2022. FHIR version 4.0.1 for xxexample.fhir.uv.myig#0.1.0-test (canonical = http://xxsomewhere.org/fhir/myig)
+Generated Fri Apr 08 20:43:23 UTC 2022. FHIR version 4.0.1 for xxexample.fhir.uv.myig#0.1.0-test (canonical = http://xxsomewhere.org/fhir/myig)
  Build Errors : 1 / 1 / 0
  /github/workspace/fsh-generated/resources/Questionnaire-QuestionnaireS37-Item-Extension-Example : 5 / 1 / 4
  /github/workspace/fsh-generated/resources/StructureDefinition-questionnaire-s37 : 2 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-s37-settings : 2 / 0 / 1
- /github/workspace/input/myig : 0 / 0 / 1
+ /github/workspace/input/myig : 0 / 1 / 1
 </table>
 == n/a ==
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/s37-settings.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
@@ -30,3 +30,4 @@ ERROR: /github/workspace/fsh-generated/resources/StructureDefinition-questionnai
 ERROR: StructureDefinition.where(url = 'http://science37.com/fhir/StructureDefinition/s37-settings'): Conformance resource /github/workspace/fsh-generated/resources/StructureDefinition-s37-settings.json - the canonical URL (http://xxsomewhere.org/fhir/myig/StructureDefinition/s37-settings) does not match the URL (http://science37.com/fhir/StructureDefinition/s37-settings)
 ERROR: /github/workspace/fsh-generated/resources/StructureDefinition-s37-settings: URL Mismatch http://xxsomewhere.org/fhir/myig/StructureDefinition/s37-settings vs http://science37.com/fhir/StructureDefinition/s37-settings
 == input/myig.xml ==
+WARNING: ImplementationGuide/xxexample.fhir.uv.myig: ImplementationGuide: ig-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed

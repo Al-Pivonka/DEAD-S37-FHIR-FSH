@@ -18,7 +18,7 @@
   fhir:ImplementationGuide.title [ fhir:value "xxYour User Friendly Name for MyIG Here"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
   fhir:ImplementationGuide.experimental [ fhir:value "false"^^xsd:boolean];
-  fhir:ImplementationGuide.date [ fhir:value "2022-04-08T20:08:03+00:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2022-04-08T20:19:51+00:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "xxxYour Work Group"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
@@ -353,10 +353,10 @@
          fhir:Extension.valueString [ fhir:value "Questionnaire" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://xxsomewhere.org/fhir/myig/Questionnaire/QuestionnaireS37-Item-Complex-Extension-Example>;
-         fhir:Reference.reference [ fhir:value "Questionnaire/QuestionnaireS37-Item-Complex-Extension-Example" ]
+         fhir:link <http://xxsomewhere.org/fhir/myig/Questionnaire/QuestionnaireS37-Item-Extension-Example>;
+         fhir:Reference.reference [ fhir:value "Questionnaire/QuestionnaireS37-Item-Extension-Example" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "The Meaning of Life Form Template" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "QuestionnaireS37-Item-Extension-Example" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Science 37 Questionnaire.Item Form Template Widget Example" ]
      ], [
        fhir:index 1;

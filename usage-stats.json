@@ -5,7 +5,7 @@
   "jurisdiction": "001",
   "extensions": [
     {
-      "url": "http://example.com/fhir/example/StructureDefinition/s37-settings",
+      "url": "http://science37.com/fhir/StructureDefinition/s37-settings",
       "title": "Gerneral Settings Extension",
       "types": [
         "string",
@@ -294,15 +294,12 @@
   "profiles": {
     "Questionnaire": [
       {
-        "url": "http://example.com/fhir/example/StructureDefinition/questionnaire-s37",
+        "url": "http://science37.com/fhir/StructureDefinition/questionnaire-s37",
         "title": "QuestionnaireS37"
       }
     ]
   },
   "usage": {
-    "http://example.com/fhir/example/StructureDefinition/s37-settings": [
-      "Questionnaire.item"
-    ],
     "http://hl7.org/fhir/StructureDefinition/elementdefinition-bestpractice": [
       "StructureDefinition.snapshot.element.constraint"
     ],
@@ -332,6 +329,9 @@
     ],
     "http://hl7.org/fhir/tools/StructureDefinition/resource-information": [
       "ImplementationGuide.definition.resource"
+    ],
+    "http://science37.com/fhir/StructureDefinition/s37-settings": [
+      "Questionnaire.item"
     ]
   }
 }

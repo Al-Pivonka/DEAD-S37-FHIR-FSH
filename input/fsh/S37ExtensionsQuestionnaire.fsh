@@ -34,7 +34,8 @@ Title:          "Gerneral Settings Extension"
     minorIncrements	0..1 and 
     interactionType	0..1 and 
     scaleSize	0..1 and 
-    optionalPresets	0..1
+    optionalPresets	0..1 and 
+    foid 0..1
 * extension[title] ^short = "title"*
 * extension[title].value[x] only string
 * extension[lable] ^short = "description"
@@ -96,4 +97,5 @@ Title:          "Gerneral Settings Extension"
 * extension[scaleSize].value[x] only integer
 * extension[optionalPresets] ^short = "optionalPresets"
 * extension[optionalPresets].value[x] only boolean
+* extension[foid].value[x] only string
     

@@ -12,7 +12,6 @@ Description: "New QuestionnaireS37.Item extensions"
 * ^contact[=].telecom.value = "https://science37.com"
 * ^contact[+].name = "Message structure"
 *  item.definition 1..1 MS
-*  item.prefix 1..1 MS
 *  item.text 1..1 MS
 *  item.required 1..1 MS
 *  item.repeats 1..1 MS

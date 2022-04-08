@@ -27,6 +27,7 @@ Usage: #example
 * item[=].extension[S37Settings].extension[standardVariable].valueString = "The standardVariable"
 * item[=].extension[S37Settings].extension[fieldCode].valueString = "The fieldCode"
 * item[=].extension[S37Settings].extension[description].valueString = "The description"
+* item[=].extension[S37Settings].extension[foid].valueString = "FOID field Object ID"
 * item[=].extension[S37Settings].extension[dateTimeOptions].valueString = "Date Time Options"
 * item[=].extension[S37Settings].extension[captureTimeonSubmit].valueBoolean = true
 * item[=].extension[S37Settings].extension[completionPeriodOfTime].valueBoolean = true

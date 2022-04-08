@@ -37,6 +37,10 @@
               "valueString": "The description"
             },
             {
+              "url": "foid",
+              "valueString": "FOID field Object ID"
+            },
+            {
               "url": "dateTimeOptions",
               "valueString": "Date Time Options"
             },

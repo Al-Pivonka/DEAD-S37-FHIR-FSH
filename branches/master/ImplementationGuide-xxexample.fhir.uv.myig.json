@@ -11,7 +11,7 @@
   "title": "xxYour User Friendly Name for MyIG Here",
   "status": "draft",
   "experimental": false,
-  "date": "2022-04-08T20:08:03+00:00",
+  "date": "2022-04-08T20:19:51+00:00",
   "publisher": "xxxYour Work Group",
   "contact": [
     {
@@ -376,9 +376,9 @@
           }
         ],
         "reference": {
-          "reference": "Questionnaire/QuestionnaireS37-Item-Complex-Extension-Example"
+          "reference": "Questionnaire/QuestionnaireS37-Item-Extension-Example"
         },
-        "name": "The Meaning of Life Form Template",
+        "name": "QuestionnaireS37-Item-Extension-Example",
         "description": "Science 37 Questionnaire.Item Form Template Widget Example"
       },
       {

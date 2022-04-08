@@ -12,7 +12,7 @@
   <title value="xxYour User Friendly Name for MyIG Here"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2022-04-08T19:53:21+00:00"/>
+  <date value="2022-04-08T20:08:03+00:00"/>
   <publisher value="xxxYour Work Group"/>
   <contact>
     <telecom>
@@ -231,6 +231,35 @@
         <valueString value="true"/>
       </extension>
     </extension>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Questionnaire"/>
+      </extension>
+      <reference>
+        <reference value="Questionnaire/QuestionnaireS37-Item-Complex-Extension-Example"/>
+      </reference>
+      <name value="The Meaning of Life Form Template"/>
+      <description value="Science 37 Questionnaire.Item Form Template Widget Example"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/s37-settings"/>
+      </reference>
+      <name value="Gerneral Settings Extension"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/questionnaire-s37"/>
+      </reference>
+      <name value="QuestionnaireS37"/>
+      <description value="New QuestionnaireS37.Item extensions"/>
+    </resource>
     <page>
       <nameUrl value="toc.html"/>
       <title value="Table of Contents"/>

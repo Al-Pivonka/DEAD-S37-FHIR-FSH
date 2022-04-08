@@ -18,7 +18,7 @@
   fhir:ImplementationGuide.title [ fhir:value "xxYour User Friendly Name for MyIG Here"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
   fhir:ImplementationGuide.experimental [ fhir:value "false"^^xsd:boolean];
-  fhir:ImplementationGuide.date [ fhir:value "2022-04-08T19:53:21+00:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2022-04-08T20:08:03+00:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "xxxYour Work Group"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
@@ -344,6 +344,45 @@
          fhir:Extension.valueString [ fhir:value "true" ]
        ];
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ];
+     fhir:ImplementationGuide.definition.resource [
+       fhir:index 0;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Questionnaire" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://xxsomewhere.org/fhir/myig/Questionnaire/QuestionnaireS37-Item-Complex-Extension-Example>;
+         fhir:Reference.reference [ fhir:value "Questionnaire/QuestionnaireS37-Item-Complex-Extension-Example" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "The Meaning of Life Form Template" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Science 37 Questionnaire.Item Form Template Widget Example" ]
+     ], [
+       fhir:index 1;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://xxsomewhere.org/fhir/myig/StructureDefinition/s37-settings>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/s37-settings" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Gerneral Settings Extension" ]
+     ], [
+       fhir:index 2;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://xxsomewhere.org/fhir/myig/StructureDefinition/questionnaire-s37>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/questionnaire-s37" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "QuestionnaireS37" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "New QuestionnaireS37.Item extensions" ]
      ];
      fhir:ImplementationGuide.definition.page [
        fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "toc.html" ];

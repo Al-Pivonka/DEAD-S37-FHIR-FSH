@@ -15,9 +15,9 @@
   fhir:CodeSystem.url [ fhir:value "http://science37.com/fhir/CodeSystem/questionnaire-status-codesystem"];
   fhir:CodeSystem.version [ fhir:value "0.1.0-test"];
   fhir:CodeSystem.name [ fhir:value "S37QuestionnaireStatusCodeSystem"];
-  fhir:CodeSystem.title [ fhir:value "S37 Questionnaire Status (unknown) code system "];
+  fhir:CodeSystem.title [ fhir:value "CodeSystem : Questionnaire Status (unknown)"];
   fhir:CodeSystem.status [ fhir:value "active"];
-  fhir:CodeSystem.date [ fhir:value "2022-04-11T17:46:13+00:00"^^xsd:dateTime];
+  fhir:CodeSystem.date [ fhir:value "2022-04-11T17:58:20+00:00"^^xsd:dateTime];
   fhir:CodeSystem.publisher [ fhir:value "xxxYour Work Group"];
   fhir:CodeSystem.contact [
      fhir:index 0;
@@ -27,7 +27,7 @@
        fhir:ContactPoint.value [ fhir:value "http://xxhl7.org/Special/committees/[something]" ]
      ]
   ];
-  fhir:CodeSystem.description [ fhir:value "S37 Questionnaire Status (unknown) code system "];
+  fhir:CodeSystem.description [ fhir:value "CodeSystem : Questionnaire Status (unknown)"];
   fhir:CodeSystem.jurisdiction [
      fhir:index 0;
      fhir:CodeableConcept.coding [

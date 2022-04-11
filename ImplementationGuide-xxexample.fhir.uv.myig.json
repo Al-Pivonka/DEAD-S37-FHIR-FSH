@@ -11,7 +11,7 @@
   "title": "Science37 FHIR IG",
   "status": "draft",
   "experimental": false,
-  "date": "2022-04-11T17:46:13+00:00",
+  "date": "2022-04-11T17:58:20+00:00",
   "publisher": "xxxYour Work Group",
   "contact": [
     {
@@ -391,7 +391,7 @@
         "reference": {
           "reference": "StructureDefinition/unknown-status"
         },
-        "name": "Questionnaire UnknownStatus Extension"
+        "name": "Extension : Questionnaire UnknownStatus"
       },
       {
         "extension": [
@@ -403,7 +403,7 @@
         "reference": {
           "reference": "StructureDefinition/s37-settings"
         },
-        "name": "Questionnaire.item Extension"
+        "name": "Extension : Questionnaire.item "
       },
       {
         "extension": [
@@ -415,8 +415,8 @@
         "reference": {
           "reference": "CodeSystem/questionnaire-status-codesystem"
         },
-        "name": "S37 Questionnaire Status (unknown) code system ",
-        "description": "S37 Questionnaire Status (unknown) code system"
+        "name": "CodeSystem : Questionnaire Status (unknown)",
+        "description": "CodeSystem : Questionnaire Status (unknown)"
       },
       {
         "extension": [
@@ -428,8 +428,8 @@
         "reference": {
           "reference": "ValueSet/questionnaire-unknown-status-vs"
         },
-        "name": "Questionnaire Unknown Status",
-        "description": "Questionnaire Unknown Status"
+        "name": "ValueSet : Questionnaire Unknown Status",
+        "description": "ValueSet : Questionnaire Unknown Status ValueSet"
       },
       {
         "extension": [
@@ -441,7 +441,7 @@
         "reference": {
           "reference": "StructureDefinition/questionnaire-s37"
         },
-        "name": "QuestionnaireS37",
+        "name": "Profile : QuestionnaireS37",
         "description": "S37 Specific Questionnaire Profile"
       },
       {

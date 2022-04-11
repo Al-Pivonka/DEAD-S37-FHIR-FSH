@@ -6,7 +6,7 @@
   "extensions": [
     {
       "url": "http://science37.com/fhir/StructureDefinition/s37-settings",
-      "title": "Questionnaire.item Extension",
+      "title": "Extension : Questionnaire.item ",
       "types": [
         "string",
         "string",
@@ -293,7 +293,7 @@
     },
     {
       "url": "http://science37.com/fhir/StructureDefinition/unknown-status",
-      "title": "Questionnaire UnknownStatus Extension",
+      "title": "Extension : Questionnaire UnknownStatus",
       "types": [
         "code",
         "code"
@@ -304,7 +304,7 @@
     "Questionnaire": [
       {
         "url": "http://science37.com/fhir/StructureDefinition/questionnaire-s37",
-        "title": "QuestionnaireS37"
+        "title": "Profile : QuestionnaireS37"
       }
     ]
   },

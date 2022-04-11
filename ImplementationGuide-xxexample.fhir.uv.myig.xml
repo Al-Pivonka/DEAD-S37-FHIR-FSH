@@ -12,7 +12,7 @@
   <title value="Science37 FHIR IG"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2022-04-11T17:46:13+00:00"/>
+  <date value="2022-04-11T17:58:20+00:00"/>
   <publisher value="xxxYour Work Group"/>
   <contact>
     <telecom>
@@ -248,7 +248,7 @@
       <reference>
         <reference value="StructureDefinition/unknown-status"/>
       </reference>
-      <name value="Questionnaire UnknownStatus Extension"/>
+      <name value="Extension : Questionnaire UnknownStatus"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -257,7 +257,7 @@
       <reference>
         <reference value="StructureDefinition/s37-settings"/>
       </reference>
-      <name value="Questionnaire.item Extension"/>
+      <name value="Extension : Questionnaire.item "/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -266,8 +266,8 @@
       <reference>
         <reference value="CodeSystem/questionnaire-status-codesystem"/>
       </reference>
-      <name value="S37 Questionnaire Status (unknown) code system "/>
-      <description value="S37 Questionnaire Status (unknown) code system"/>
+      <name value="CodeSystem : Questionnaire Status (unknown)"/>
+      <description value="CodeSystem : Questionnaire Status (unknown)"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -276,8 +276,8 @@
       <reference>
         <reference value="ValueSet/questionnaire-unknown-status-vs"/>
       </reference>
-      <name value="Questionnaire Unknown Status"/>
-      <description value="Questionnaire Unknown Status"/>
+      <name value="ValueSet : Questionnaire Unknown Status"/>
+      <description value="ValueSet : Questionnaire Unknown Status ValueSet"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -286,7 +286,7 @@
       <reference>
         <reference value="StructureDefinition/questionnaire-s37"/>
       </reference>
-      <name value="QuestionnaireS37"/>
+      <name value="Profile : QuestionnaireS37"/>
       <description value="S37 Specific Questionnaire Profile"/>
     </resource>
     <resource>

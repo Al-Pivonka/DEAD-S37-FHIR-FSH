@@ -8,9 +8,9 @@
   "url": "http://science37.com/fhir/CodeSystem/questionnaire-status-codesystem",
   "version": "0.1.0-test",
   "name": "S37QuestionnaireStatusCodeSystem",
-  "title": "S37 Questionnaire Status (unknown) code system ",
+  "title": "CodeSystem : Questionnaire Status (unknown)",
   "status": "active",
-  "date": "2022-04-11T17:46:13+00:00",
+  "date": "2022-04-11T17:58:20+00:00",
   "publisher": "xxxYour Work Group",
   "contact": [
     {
@@ -22,7 +22,7 @@
       ]
     }
   ],
-  "description": "S37 Questionnaire Status (unknown) code system ",
+  "description": "CodeSystem : Questionnaire Status (unknown)",
   "jurisdiction": [
     {
       "coding": [

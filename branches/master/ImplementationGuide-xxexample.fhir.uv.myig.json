@@ -11,7 +11,7 @@
   "title": "Science37 FHIR IG",
   "status": "draft",
   "experimental": false,
-  "date": "2022-04-11T20:24:48+00:00",
+  "date": "2022-04-11T20:32:47+00:00",
   "publisher": "xxxYour Work Group",
   "contact": [
     {
@@ -478,7 +478,7 @@
         "reference": {
           "reference": "StructureDefinition/questionnaire-s372"
         },
-        "name": "Profile : QuestionnaireS37",
+        "name": "Profile : Questionnaire Value Set Unknown Status",
         "description": "S37 Specific Questionnaire Profile"
       },
       {
@@ -491,7 +491,7 @@
         "reference": {
           "reference": "StructureDefinition/questionnaire-s373"
         },
-        "name": "Profile : QuestionnaireS37",
+        "name": "Profile : Questionnaire String Unknown Status",
         "description": "S37 Specific Questionnaire Profile"
       },
       {
@@ -504,7 +504,7 @@
         "reference": {
           "reference": "StructureDefinition/questionnaire-s371"
         },
-        "name": "Profile : QuestionnaireS37",
+        "name": "Profile : Questionnaire.item extensions",
         "description": "S37 Specific Questionnaire Profile"
       }
     ],

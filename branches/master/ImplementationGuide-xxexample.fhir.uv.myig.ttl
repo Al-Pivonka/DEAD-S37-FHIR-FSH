@@ -18,7 +18,7 @@
   fhir:ImplementationGuide.title [ fhir:value "Science37 FHIR IG"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
   fhir:ImplementationGuide.experimental [ fhir:value "false"^^xsd:boolean];
-  fhir:ImplementationGuide.date [ fhir:value "2022-04-11T20:24:48+00:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2022-04-11T20:32:47+00:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "xxxYour Work Group"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
@@ -456,7 +456,7 @@
          fhir:link <http://xxsomewhere.org/fhir/myig/StructureDefinition/questionnaire-s372>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/questionnaire-s372" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Profile : QuestionnaireS37" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Profile : Questionnaire Value Set Unknown Status" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "S37 Specific Questionnaire Profile" ]
      ], [
        fhir:index 9;
@@ -469,7 +469,7 @@
          fhir:link <http://xxsomewhere.org/fhir/myig/StructureDefinition/questionnaire-s373>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/questionnaire-s373" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Profile : QuestionnaireS37" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Profile : Questionnaire String Unknown Status" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "S37 Specific Questionnaire Profile" ]
      ], [
        fhir:index 10;
@@ -482,7 +482,7 @@
          fhir:link <http://xxsomewhere.org/fhir/myig/StructureDefinition/questionnaire-s371>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/questionnaire-s371" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Profile : QuestionnaireS37" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Profile : Questionnaire.item extensions" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "S37 Specific Questionnaire Profile" ]
      ];
      fhir:ImplementationGuide.definition.page [

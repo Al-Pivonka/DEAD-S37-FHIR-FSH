@@ -12,7 +12,7 @@
   <title value="Science37 FHIR IG"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2022-04-11T20:32:47+00:00"/>
+  <date value="2022-04-11T20:39:05+00:00"/>
   <publisher value="xxxYour Work Group"/>
   <contact>
     <telecom>
@@ -266,7 +266,7 @@
       <reference>
         <reference value="Questionnaire/QuestionnaireS37-Unknown-Status-String-Example"/>
       </reference>
-      <name value="Example : QuestionnaireS37 Unknown Status Value Set"/>
+      <name value="Example : QuestionnaireS37 Unknown Status String"/>
       <description value="Science 37 Unknown Status Example"/>
     </resource>
     <resource>

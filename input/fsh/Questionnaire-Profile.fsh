@@ -1,7 +1,7 @@
 Profile: QuestionnaireS37
 Parent: Questionnaire
 Id: questionnaire-s37
-Title: "QuestionnaireS37"
+Title: "Profile : QuestionnaireS37"
 Description: "S37 Specific Questionnaire Profile"
 * ^version = "1.0.0"
 * ^status = #active

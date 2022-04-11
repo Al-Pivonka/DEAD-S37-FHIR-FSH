@@ -3,8 +3,8 @@
   "status": "active",
   "name": "QuestionnaireUnknownStatusVS",
   "id": "questionnaire-unknown-status-vs",
-  "title": "Questionnaire Unknown Status",
-  "description": "Questionnaire Unknown Status",
+  "title": "ValueSet : Questionnaire Unknown Status",
+  "description": "ValueSet : Questionnaire Unknown Status ValueSet",
   "version": "1.0.0",
   "url": "http://science37.com/fhir/ValueSet/questionnaire-unknown-status-vs",
   "compose": {

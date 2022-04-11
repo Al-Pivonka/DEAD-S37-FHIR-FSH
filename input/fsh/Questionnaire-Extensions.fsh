@@ -1,6 +1,6 @@
 Extension:      S37Settings
 Id:             s37-settings
-Title:          "Questionnaire.item Extension"
+Title:          "Extension : Questionnaire.item "
 * ^context.expression = "Questionnaire.item"
 * extension contains
     title 0..1 and
@@ -103,7 +103,7 @@ Title:          "Questionnaire.item Extension"
 
 Extension:      UnknownStatus
 Id:             unknown-status
-Title:          "Questionnaire UnknownStatus Extension"
+Title:          "Extension : Questionnaire UnknownStatus"
 * ^context.expression = "Questionnaire"
 * value[x] only code
 * valueCode from QuestionnaireUnknownStatusVS (required)

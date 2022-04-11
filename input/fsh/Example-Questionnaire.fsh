@@ -2,7 +2,7 @@
 
 Instance: Questionnaire-Item-Extension-Example
 InstanceOf: QuestionnaireS37
-Description: "Questionnaire.Item Extension Example"
+Description: "Example : Questionnaire.Item Extension"
 Usage: #example
 * status = #draft
 * description = "Science 37 Questionnaire.Item Form Template Widget Example"
@@ -61,7 +61,7 @@ Usage: #example
 
 Instance: QuestionnaireS37-Unknown-Status-Example
 InstanceOf: QuestionnaireS37
-Description: "QuestionnaireS37 Unknown Status Example"
+Description: "Example : QuestionnaireS37 Unknown Status"
 Usage: #example
 * status = #unknown
 * description = "Science 37 Unknown Status Example"

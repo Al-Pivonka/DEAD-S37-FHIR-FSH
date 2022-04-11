@@ -56,7 +56,7 @@
         "reference": {
           "reference": "StructureDefinition/questionnaire-s37"
         },
-        "name": "QuestionnaireS37",
+        "name": "Profile : QuestionnaireS37",
         "description": "S37 Specific Questionnaire Profile",
         "exampleBoolean": false
       },
@@ -64,30 +64,30 @@
         "reference": {
           "reference": "StructureDefinition/s37-settings"
         },
-        "name": "Questionnaire.item Extension",
+        "name": "Extension : Questionnaire.item ",
         "exampleBoolean": false
       },
       {
         "reference": {
           "reference": "StructureDefinition/unknown-status"
         },
-        "name": "Questionnaire UnknownStatus Extension",
+        "name": "Extension : Questionnaire UnknownStatus",
         "exampleBoolean": false
       },
       {
         "reference": {
           "reference": "ValueSet/questionnaire-unknown-status-vs"
         },
-        "name": "Questionnaire Unknown Status",
-        "description": "Questionnaire Unknown Status",
+        "name": "ValueSet : Questionnaire Unknown Status",
+        "description": "ValueSet : Questionnaire Unknown Status ValueSet",
         "exampleBoolean": false
       },
       {
         "reference": {
           "reference": "CodeSystem/questionnaire-status-codesystem"
         },
-        "name": "S37 Questionnaire Status (unknown) code system ",
-        "description": "S37 Questionnaire Status (unknown) code system ",
+        "name": "CodeSystem : Questionnaire Status (unknown)",
+        "description": "CodeSystem : Questionnaire Status (unknown)",
         "exampleBoolean": false
       },
       {
@@ -95,7 +95,7 @@
           "reference": "Questionnaire/Questionnaire-Item-Extension-Example"
         },
         "name": "Questionnaire-Item-Extension-Example",
-        "description": "Questionnaire.Item Extension Example",
+        "description": "Example : Questionnaire.Item Extension",
         "exampleCanonical": "http://science37.com/fhir/StructureDefinition/questionnaire-s37"
       },
       {
@@ -103,7 +103,7 @@
           "reference": "Questionnaire/QuestionnaireS37-Unknown-Status-Example"
         },
         "name": "QuestionnaireS37-Unknown-Status-Example",
-        "description": "QuestionnaireS37 Unknown Status Example",
+        "description": "Example : QuestionnaireS37 Unknown Status",
         "exampleCanonical": "http://science37.com/fhir/StructureDefinition/questionnaire-s37"
       }
     ],

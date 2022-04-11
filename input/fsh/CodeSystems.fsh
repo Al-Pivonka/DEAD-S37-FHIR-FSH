@@ -1,7 +1,7 @@
 CodeSystem: S37QuestionnaireStatusCodeSystem
 Id: questionnaire-status-codesystem
-Title: "S37 Questionnaire Status (unknown) code system "
-Description: "S37 Questionnaire Status (unknown) code system "
+Title: "CodeSystem : Questionnaire Status (unknown)"
+Description: "CodeSystem : Questionnaire Status (unknown)"
 * ^caseSensitive = true
 * #deleted "Deleted" "Deleted"
 * #rejected "Rejected" "Rejected"

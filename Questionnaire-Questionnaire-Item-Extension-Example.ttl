@@ -10,9 +10,9 @@
   fhir:Resource.id [ fhir:value "Questionnaire-Item-Extension-Example"];
   fhir:Resource.meta [
      fhir:Meta.profile [
-       fhir:value "http://science37.com/fhir/StructureDefinition/questionnaire-s37";
+       fhir:value "http://science37.com/fhir/StructureDefinition/questionnaire-s371";
        fhir:index 0;
-       fhir:link <http://science37.com/fhir/StructureDefinition/questionnaire-s37>
+       fhir:link <http://science37.com/fhir/StructureDefinition/questionnaire-s371>
      ]
   ];
   fhir:DomainResource.text [
@@ -28,7 +28,7 @@
      fhir:value "Patient";
      fhir:index 0
   ];
-  fhir:Questionnaire.date [ fhir:value "2022-04-11T19:03:21+00:00"^^xsd:dateTime];
+  fhir:Questionnaire.date [ fhir:value "2022-04-11T20:24:48+00:00"^^xsd:dateTime];
   fhir:Questionnaire.publisher [ fhir:value "xxxYour Work Group"];
   fhir:Questionnaire.contact [
      fhir:index 0;
@@ -199,7 +199,6 @@
      fhir:Questionnaire.item.text [ fhir:value "Describe your current mood." ];
      fhir:Questionnaire.item.type [ fhir:value "text" ];
      fhir:Questionnaire.item.required [ fhir:value "true"^^xsd:boolean ];
-     fhir:Questionnaire.item.repeats [ fhir:value "false"^^xsd:boolean ];
      fhir:Questionnaire.item.answerOption [
        fhir:index 0;
        fhir:Questionnaire.item.answerOption.valueString [ fhir:value "Answer Option 0" ]

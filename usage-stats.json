@@ -292,8 +292,15 @@
       ]
     },
     {
-      "url": "http://science37.com/fhir/StructureDefinition/unknown-status",
-      "title": "Extension : Questionnaire UnknownStatus",
+      "url": "http://science37.com/fhir/StructureDefinition/unknown-status-string",
+      "title": "Extension : Questionnaire UnknownStatus String",
+      "types": [
+        "string"
+      ]
+    },
+    {
+      "url": "http://science37.com/fhir/StructureDefinition/unknown-status-valueset",
+      "title": "Extension : Questionnaire UnknownStatus Value Set",
       "types": [
         "code",
         "code"
@@ -303,7 +310,15 @@
   "profiles": {
     "Questionnaire": [
       {
-        "url": "http://science37.com/fhir/StructureDefinition/questionnaire-s37",
+        "url": "http://science37.com/fhir/StructureDefinition/questionnaire-s371",
+        "title": "Profile : QuestionnaireS37"
+      },
+      {
+        "url": "http://science37.com/fhir/StructureDefinition/questionnaire-s372",
+        "title": "Profile : QuestionnaireS37"
+      },
+      {
+        "url": "http://science37.com/fhir/StructureDefinition/questionnaire-s373",
         "title": "Profile : QuestionnaireS37"
       }
     ]
@@ -342,7 +357,10 @@
     "http://science37.com/fhir/StructureDefinition/s37-settings": [
       "Questionnaire.item"
     ],
-    "http://science37.com/fhir/StructureDefinition/unknown-status": [
+    "http://science37.com/fhir/StructureDefinition/unknown-status-string": [
+      "Questionnaire"
+    ],
+    "http://science37.com/fhir/StructureDefinition/unknown-status-valueset": [
       "Questionnaire"
     ]
   }

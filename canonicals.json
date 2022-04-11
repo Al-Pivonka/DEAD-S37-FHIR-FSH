@@ -7,11 +7,25 @@
     "name": "S37QuestionnaireStatusCodeSystem"
   },
   {
-    "id": "questionnaire-s37",
+    "id": "questionnaire-s371",
     "type": "StructureDefinition",
-    "url": "http://science37.com/fhir/StructureDefinition/questionnaire-s37",
+    "url": "http://science37.com/fhir/StructureDefinition/questionnaire-s371",
     "version": "0.1.0-test",
-    "name": "QuestionnaireS37"
+    "name": "QuestionnaireS37_1"
+  },
+  {
+    "id": "questionnaire-s372",
+    "type": "StructureDefinition",
+    "url": "http://science37.com/fhir/StructureDefinition/questionnaire-s372",
+    "version": "0.1.0-test",
+    "name": "QuestionnaireS37_2"
+  },
+  {
+    "id": "questionnaire-s373",
+    "type": "StructureDefinition",
+    "url": "http://science37.com/fhir/StructureDefinition/questionnaire-s373",
+    "version": "0.1.0-test",
+    "name": "QuestionnaireS37_3"
   },
   {
     "id": "s37-settings",
@@ -21,11 +35,18 @@
     "name": "S37Settings"
   },
   {
-    "id": "unknown-status",
+    "id": "unknown-status-string",
     "type": "StructureDefinition",
-    "url": "http://science37.com/fhir/StructureDefinition/unknown-status",
+    "url": "http://science37.com/fhir/StructureDefinition/unknown-status-string",
     "version": "0.1.0-test",
-    "name": "UnknownStatus"
+    "name": "UnknownStatusString"
+  },
+  {
+    "id": "unknown-status-valueset",
+    "type": "StructureDefinition",
+    "url": "http://science37.com/fhir/StructureDefinition/unknown-status-valueset",
+    "version": "0.1.0-test",
+    "name": "UnknownStatusValueSet"
   },
   {
     "id": "questionnaire-unknown-status-vs",
@@ -49,10 +70,17 @@
     "name": "Example : Questionnaire.Item Extension"
   },
   {
-    "id": "QuestionnaireS37-Unknown-Status-Example",
+    "id": "QuestionnaireS37-Unknown-Status-String-Example",
     "type": "Questionnaire",
-    "url": "http://xxsomewhere.org/fhir/myig/Questionnaire/QuestionnaireS37-Unknown-Status-Example",
+    "url": "http://xxsomewhere.org/fhir/myig/Questionnaire/QuestionnaireS37-Unknown-Status-String-Example",
     "version": "0.1.0-test",
-    "name": "Example : QuestionnaireS37 Unknown Status"
+    "name": "Example : QuestionnaireS37 Unknown Status Value Set"
+  },
+  {
+    "id": "QuestionnaireS37-Unknown-Status-ValueSet-Example",
+    "type": "Questionnaire",
+    "url": "http://xxsomewhere.org/fhir/myig/Questionnaire/QuestionnaireS37-Unknown-Status-ValueSet-Example",
+    "version": "0.1.0-test",
+    "name": "Example : QuestionnaireS37 Unknown Status Value Set"
   }
 ]

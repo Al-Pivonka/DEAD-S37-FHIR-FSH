@@ -4,7 +4,7 @@ Instance: QuestionnaireS37-Item-Extension-Example
 InstanceOf: QuestionnaireS37
 Description: "QuestionnaireS37.Item Extension Example"
 Usage: #example
-* status = #draft
+* status = #unknown
 * description = "Science 37 Questionnaire.Item Form Template Widget Example"
 * title = "QuestionnaireS37-Item-Extension-Example"
 * name = "QuestionnaireS37-Item-Extension-Example"

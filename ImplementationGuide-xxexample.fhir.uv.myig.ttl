@@ -18,7 +18,7 @@
   fhir:ImplementationGuide.title [ fhir:value "Science37 FHIR IG"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
   fhir:ImplementationGuide.experimental [ fhir:value "false"^^xsd:boolean];
-  fhir:ImplementationGuide.date [ fhir:value "2022-04-11T20:32:47+00:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2022-04-11T20:39:05+00:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "xxxYour Work Group"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
@@ -393,7 +393,7 @@
          fhir:link <http://xxsomewhere.org/fhir/myig/Questionnaire/QuestionnaireS37-Unknown-Status-String-Example>;
          fhir:Reference.reference [ fhir:value "Questionnaire/QuestionnaireS37-Unknown-Status-String-Example" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Example : QuestionnaireS37 Unknown Status Value Set" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Example : QuestionnaireS37 Unknown Status String" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Science 37 Unknown Status Example" ]
      ], [
        fhir:index 4;

@@ -74,7 +74,7 @@
     "type": "Questionnaire",
     "url": "http://xxsomewhere.org/fhir/myig/Questionnaire/QuestionnaireS37-Unknown-Status-String-Example",
     "version": "0.1.0-test",
-    "name": "Example : QuestionnaireS37 Unknown Status Value Set"
+    "name": "Example : QuestionnaireS37 Unknown Status String"
   },
   {
     "id": "QuestionnaireS37-Unknown-Status-ValueSet-Example",

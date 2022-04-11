@@ -3,7 +3,7 @@
   "id": "Questionnaire-Item-Extension-Example",
   "meta": {
     "profile": [
-      "http://science37.com/fhir/StructureDefinition/questionnaire-s37"
+      "http://science37.com/fhir/StructureDefinition/questionnaire-s371"
     ]
   },
   "text": {
@@ -18,7 +18,7 @@
   "subjectType": [
     "Patient"
   ],
-  "date": "2022-04-11T19:03:21+00:00",
+  "date": "2022-04-11T20:24:48+00:00",
   "publisher": "xxxYour Work Group",
   "contact": [
     {
@@ -195,7 +195,6 @@
       "text": "Describe your current mood.",
       "type": "text",
       "required": true,
-      "repeats": false,
       "answerOption": [
         {
           "valueString": "Answer Option 0"

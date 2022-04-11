@@ -11,7 +11,7 @@
   "title": "Science37 FHIR IG",
   "status": "draft",
   "experimental": false,
-  "date": "2022-04-11T19:03:21+00:00",
+  "date": "2022-04-11T20:24:48+00:00",
   "publisher": "xxxYour Work Group",
   "contact": [
     {
@@ -376,9 +376,9 @@
           }
         ],
         "reference": {
-          "reference": "Questionnaire/QuestionnaireS37-Unknown-Status-Example"
+          "reference": "Questionnaire/QuestionnaireS37-Unknown-Status-ValueSet-Example"
         },
-        "name": "Example : QuestionnaireS37 Unknown Status",
+        "name": "Example : QuestionnaireS37 Unknown Status Value Set",
         "description": "Science 37 Unknown Status Example"
       },
       {
@@ -389,9 +389,9 @@
           }
         ],
         "reference": {
-          "reference": "StructureDefinition/unknown-status"
+          "reference": "StructureDefinition/unknown-status-string"
         },
-        "name": "Extension : Questionnaire UnknownStatus"
+        "name": "Extension : Questionnaire UnknownStatus String"
       },
       {
         "extension": [
@@ -404,6 +404,19 @@
           "reference": "StructureDefinition/s37-settings"
         },
         "name": "Extension : Questionnaire.item "
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Questionnaire"
+          }
+        ],
+        "reference": {
+          "reference": "Questionnaire/QuestionnaireS37-Unknown-Status-String-Example"
+        },
+        "name": "Example : QuestionnaireS37 Unknown Status Value Set",
+        "description": "Science 37 Unknown Status Example"
       },
       {
         "extension": [
@@ -435,11 +448,35 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Questionnaire"
+          }
+        ],
+        "reference": {
+          "reference": "Questionnaire/Questionnaire-Item-Extension-Example"
+        },
+        "name": "Example : Questionnaire.Item Extension"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/unknown-status-valueset"
+        },
+        "name": "Extension : Questionnaire UnknownStatus Value Set"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "StructureDefinition:resource"
           }
         ],
         "reference": {
-          "reference": "StructureDefinition/questionnaire-s37"
+          "reference": "StructureDefinition/questionnaire-s372"
         },
         "name": "Profile : QuestionnaireS37",
         "description": "S37 Specific Questionnaire Profile"
@@ -448,13 +485,27 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "Questionnaire"
+            "valueString": "StructureDefinition:resource"
           }
         ],
         "reference": {
-          "reference": "Questionnaire/Questionnaire-Item-Extension-Example"
+          "reference": "StructureDefinition/questionnaire-s373"
         },
-        "name": "Example : Questionnaire.Item Extension"
+        "name": "Profile : QuestionnaireS37",
+        "description": "S37 Specific Questionnaire Profile"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/questionnaire-s371"
+        },
+        "name": "Profile : QuestionnaireS37",
+        "description": "S37 Specific Questionnaire Profile"
       }
     ],
     "page": {

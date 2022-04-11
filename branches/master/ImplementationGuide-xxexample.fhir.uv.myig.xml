@@ -12,7 +12,7 @@
   <title value="Science37 FHIR IG"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2022-04-11T19:03:21+00:00"/>
+  <date value="2022-04-11T20:24:48+00:00"/>
   <publisher value="xxxYour Work Group"/>
   <contact>
     <telecom>
@@ -236,9 +236,9 @@
         <valueString value="Questionnaire"/>
       </extension>
       <reference>
-        <reference value="Questionnaire/QuestionnaireS37-Unknown-Status-Example"/>
+        <reference value="Questionnaire/QuestionnaireS37-Unknown-Status-ValueSet-Example"/>
       </reference>
-      <name value="Example : QuestionnaireS37 Unknown Status"/>
+      <name value="Example : QuestionnaireS37 Unknown Status Value Set"/>
       <description value="Science 37 Unknown Status Example"/>
     </resource>
     <resource>
@@ -246,9 +246,9 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/unknown-status"/>
+        <reference value="StructureDefinition/unknown-status-string"/>
       </reference>
-      <name value="Extension : Questionnaire UnknownStatus"/>
+      <name value="Extension : Questionnaire UnknownStatus String"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -258,6 +258,16 @@
         <reference value="StructureDefinition/s37-settings"/>
       </reference>
       <name value="Extension : Questionnaire.item "/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Questionnaire"/>
+      </extension>
+      <reference>
+        <reference value="Questionnaire/QuestionnaireS37-Unknown-Status-String-Example"/>
+      </reference>
+      <name value="Example : QuestionnaireS37 Unknown Status Value Set"/>
+      <description value="Science 37 Unknown Status Example"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -281,22 +291,51 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/questionnaire-s37"/>
-      </reference>
-      <name value="Profile : QuestionnaireS37"/>
-      <description value="S37 Specific Questionnaire Profile"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="Questionnaire"/>
       </extension>
       <reference>
         <reference value="Questionnaire/Questionnaire-Item-Extension-Example"/>
       </reference>
       <name value="Example : Questionnaire.Item Extension"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/unknown-status-valueset"/>
+      </reference>
+      <name value="Extension : Questionnaire UnknownStatus Value Set"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/questionnaire-s372"/>
+      </reference>
+      <name value="Profile : QuestionnaireS37"/>
+      <description value="S37 Specific Questionnaire Profile"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/questionnaire-s373"/>
+      </reference>
+      <name value="Profile : QuestionnaireS37"/>
+      <description value="S37 Specific Questionnaire Profile"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/questionnaire-s371"/>
+      </reference>
+      <name value="Profile : QuestionnaireS37"/>
+      <description value="S37 Specific Questionnaire Profile"/>
     </resource>
     <page>
       <nameUrl value="toc.html"/>

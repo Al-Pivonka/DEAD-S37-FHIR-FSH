@@ -11,7 +11,7 @@
   "title": "Science37 FHIR IG",
   "status": "draft",
   "experimental": false,
-  "date": "2022-04-11T17:58:20+00:00",
+  "date": "2022-04-11T18:04:55+00:00",
   "publisher": "xxxYour Work Group",
   "contact": [
     {
@@ -378,7 +378,7 @@
         "reference": {
           "reference": "Questionnaire/QuestionnaireS37-Unknown-Status-Example"
         },
-        "name": "Questionnaire-Unknown Status Example",
+        "name": "Example : QuestionnaireS37 Unknown Status",
         "description": "Science 37 Unknown Status Example"
       },
       {
@@ -454,8 +454,7 @@
         "reference": {
           "reference": "Questionnaire/Questionnaire-Item-Extension-Example"
         },
-        "name": "Questionnaire-Item-Extension-Example",
-        "description": "Science 37 Questionnaire.Item Form Template Widget Example"
+        "name": "Example : Questionnaire.Item Extension"
       }
     ],
     "page": {

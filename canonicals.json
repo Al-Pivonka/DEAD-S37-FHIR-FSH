@@ -46,13 +46,13 @@
     "type": "Questionnaire",
     "url": "http://xxsomewhere.org/fhir/myig/Questionnaire/Questionnaire-Item-Extension-Example",
     "version": "0.1.0-test",
-    "name": "Questionnaire-Item-Extension-Example"
+    "name": "Example : Questionnaire.Item Extension"
   },
   {
     "id": "QuestionnaireS37-Unknown-Status-Example",
     "type": "Questionnaire",
     "url": "http://xxsomewhere.org/fhir/myig/Questionnaire/QuestionnaireS37-Unknown-Status-Example",
     "version": "0.1.0-test",
-    "name": "Questionnaire-Unknown Status Example"
+    "name": "Example : QuestionnaireS37 Unknown Status"
   }
 ]

@@ -194,16 +194,6 @@
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
-    <sch:title>f:Questionnaire/f:item</sch:title>
-    <sch:rule context="f:Questionnaire/f:item">
-      <sch:assert test="count(f:extension[@url = 'http://science37.com/fhir/StructureDefinition/s37-settings']) &gt;= 1">extension with URL = 'http://science37.com/fhir/StructureDefinition/s37-settings': minimum cardinality of 'extension' is 1</sch:assert>
-      <sch:assert test="count(f:extension[@url = 'http://science37.com/fhir/StructureDefinition/s37-settings']) &lt;= 1">extension with URL = 'http://science37.com/fhir/StructureDefinition/s37-settings': maximum cardinality of 'extension' is 1</sch:assert>
-      <sch:assert test="count(f:definition) &gt;= 1">definition: minimum cardinality of 'definition' is 1</sch:assert>
-      <sch:assert test="count(f:text) &gt;= 1">text: minimum cardinality of 'text' is 1</sch:assert>
-      <sch:assert test="count(f:required) &gt;= 1">required: minimum cardinality of 'required' is 1</sch:assert>
-    </sch:rule>
-  </sch:pattern>
-  <sch:pattern>
     <sch:title>Questionnaire.item</sch:title>
     <sch:rule context="f:Questionnaire/f:item">
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
@@ -225,8 +215,6 @@
     <sch:rule context="f:Questionnaire/f:item/f:extension">
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
       <sch:assert test="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &quot;value&quot;)])">Must have either extensions or value[x], not both (inherited)</sch:assert>
-      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
-      <sch:assert test="exists(f:extension)!=exists(f:*[starts-with(local-name(.), 'value')])">Must have either extensions or value[x], not both (inherited)</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>

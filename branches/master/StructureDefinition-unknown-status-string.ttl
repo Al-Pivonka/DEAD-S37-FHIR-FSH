@@ -17,7 +17,7 @@
   fhir:StructureDefinition.name [ fhir:value "UnknownStatusString"];
   fhir:StructureDefinition.title [ fhir:value "Extension : Questionnaire UnknownStatus String"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2022-04-11T20:39:05+00:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2022-04-11T20:51:46+00:00"^^xsd:dateTime];
   fhir:StructureDefinition.publisher [ fhir:value "xxxYour Work Group"];
   fhir:StructureDefinition.contact [
      fhir:index 0;

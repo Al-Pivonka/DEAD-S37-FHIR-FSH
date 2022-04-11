@@ -2,12 +2,12 @@
 
 Instance: Questionnaire-Item-Extension-Example
 InstanceOf: QuestionnaireS37
+Title: "Example : Questionnaire.Item Extension"
 Description: "Example : Questionnaire.Item Extension"
 Usage: #example
 * status = #draft
-* description = "Science 37 Questionnaire.Item Form Template Widget Example"
-* title = "Questionnaire-Item-Extension-Example"
-* name = "Questionnaire-Item-Extension-Example"
+* title = "Example : Questionnaire.Item Extension"
+* name = "Example : Questionnaire.Item Extension"
 * version = "1.2k33"
 * subjectType = #Patient
 * item[0].type = #text
@@ -61,12 +61,13 @@ Usage: #example
 
 Instance: QuestionnaireS37-Unknown-Status-Example
 InstanceOf: QuestionnaireS37
+Title: "Example : QuestionnaireS37 Unknown Status"
 Description: "Example : QuestionnaireS37 Unknown Status"
 Usage: #example
 * status = #unknown
 * description = "Science 37 Unknown Status Example"
-* title = "Questionnaire-Unknown Status Example"
-* name = "Questionnaire-Unknown Status Example"
+* title = "Example : QuestionnaireS37 Unknown Status"
+* name = "Example : QuestionnaireS37 Unknown Status"
 * version = "1.2k33"
 * subjectType = #Patient
 * extension[UnknownStatus].valueCode = S37QuestionnaireStatusCodeSystem#deleted 

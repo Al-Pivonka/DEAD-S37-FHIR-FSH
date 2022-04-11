@@ -181,9 +181,8 @@
     }
   ],
   "status": "draft",
-  "description": "Science 37 Questionnaire.Item Form Template Widget Example",
-  "title": "Questionnaire-Item-Extension-Example",
-  "name": "Questionnaire-Item-Extension-Example",
+  "title": "Example : Questionnaire.Item Extension",
+  "name": "Example : Questionnaire.Item Extension",
   "version": "1.2k33",
   "subjectType": [
     "Patient"

@@ -33,10 +33,7 @@ Description: "S37 Specific Questionnaire Profile"
 * ^contact[+].name = "Message structure"
 *  status 1..1 MS
 *  extension contains UnknownStatusValueSet named UnknownStatusValueSet 0..1
-*  item.definition 1..1 MS
-*  item.text 1..1 MS
-*  item.required 1..1 MS
-*  item.extension contains S37Settings named Settings 1..1 MS
+
 
 
 Profile: QuestionnaireS37_3
@@ -54,8 +51,3 @@ Description: "S37 Specific Questionnaire Profile"
 * ^contact[+].name = "Message structure"
 *  status 1..1 MS
 *  extension contains UnknownStatusString named UnknownStatusString 0..1
-*  item.definition 1..1 MS
-*  item.text 1..1 MS
-*  item.required 1..1 MS
-*  item.repeats 1..1 MS
-*  item.extension contains S37Settings named Settings 1..1 MS

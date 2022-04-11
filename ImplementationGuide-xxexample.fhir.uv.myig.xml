@@ -12,7 +12,7 @@
   <title value="Science37 FHIR IG"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2022-04-11T20:24:48+00:00"/>
+  <date value="2022-04-11T20:32:47+00:00"/>
   <publisher value="xxxYour Work Group"/>
   <contact>
     <telecom>
@@ -314,7 +314,7 @@
       <reference>
         <reference value="StructureDefinition/questionnaire-s372"/>
       </reference>
-      <name value="Profile : QuestionnaireS37"/>
+      <name value="Profile : Questionnaire Value Set Unknown Status"/>
       <description value="S37 Specific Questionnaire Profile"/>
     </resource>
     <resource>
@@ -324,7 +324,7 @@
       <reference>
         <reference value="StructureDefinition/questionnaire-s373"/>
       </reference>
-      <name value="Profile : QuestionnaireS37"/>
+      <name value="Profile : Questionnaire String Unknown Status"/>
       <description value="S37 Specific Questionnaire Profile"/>
     </resource>
     <resource>
@@ -334,7 +334,7 @@
       <reference>
         <reference value="StructureDefinition/questionnaire-s371"/>
       </reference>
-      <name value="Profile : QuestionnaireS37"/>
+      <name value="Profile : Questionnaire.item extensions"/>
       <description value="S37 Specific Questionnaire Profile"/>
     </resource>
     <page>

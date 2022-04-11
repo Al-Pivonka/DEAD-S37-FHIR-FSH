@@ -24,7 +24,7 @@
   fhir:StructureDefinition.url [ fhir:value "http://science37.com/fhir/StructureDefinition/questionnaire-s372"];
   fhir:StructureDefinition.version [ fhir:value "0.1.0-test"];
   fhir:StructureDefinition.name [ fhir:value "QuestionnaireS37_2"];
-  fhir:StructureDefinition.title [ fhir:value "Profile : QuestionnaireS37"];
+  fhir:StructureDefinition.title [ fhir:value "Profile : Questionnaire Value Set Unknown Status"];
   fhir:StructureDefinition.status [ fhir:value "active"];
   fhir:StructureDefinition.date [ fhir:value "2022-04-07T10:59:49+00:00"^^xsd:dateTime];
   fhir:StructureDefinition.publisher [ fhir:value "xxxYour Work Group"];

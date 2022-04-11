@@ -25,7 +25,7 @@
   <url value="http://science37.com/fhir/StructureDefinition/questionnaire-s373"/>
   <version value="0.1.0-test"/>
   <name value="QuestionnaireS37_3"/>
-  <title value="Profile : QuestionnaireS37"/>
+  <title value="Profile : Questionnaire String Unknown Status"/>
   <status value="active"/>
   <date value="2022-04-07T10:59:49+00:00"/>
   <publisher value="xxxYour Work Group"/>

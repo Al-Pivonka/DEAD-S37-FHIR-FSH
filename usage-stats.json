@@ -311,15 +311,15 @@
     "Questionnaire": [
       {
         "url": "http://science37.com/fhir/StructureDefinition/questionnaire-s371",
-        "title": "Profile : QuestionnaireS37"
+        "title": "Profile : Questionnaire.item extensions"
       },
       {
         "url": "http://science37.com/fhir/StructureDefinition/questionnaire-s372",
-        "title": "Profile : QuestionnaireS37"
+        "title": "Profile : Questionnaire Value Set Unknown Status"
       },
       {
         "url": "http://science37.com/fhir/StructureDefinition/questionnaire-s373",
-        "title": "Profile : QuestionnaireS37"
+        "title": "Profile : Questionnaire String Unknown Status"
       }
     ]
   },

@@ -12,7 +12,7 @@ Description: "S37 Specific Questionnaire Profile"
 * ^contact[=].telecom.value = "https://science37.com"
 * ^contact[+].name = "Message structure"
 *  extension contains UnknownStatus named UnknownStatus 0..1
-*  status 1..1
+*  item.status 1..1 MS
 *  item.definition 1..1 MS
 *  item.text 1..1 MS
 *  item.required 1..1 MS

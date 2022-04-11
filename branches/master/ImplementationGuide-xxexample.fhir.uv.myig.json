@@ -11,7 +11,7 @@
   "title": "Science37 FHIR IG",
   "status": "draft",
   "experimental": false,
-  "date": "2022-04-08T20:51:34+00:00",
+  "date": "2022-04-11T16:40:30+00:00",
   "publisher": "xxxYour Work Group",
   "contact": [
     {
@@ -372,6 +372,18 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/unknown-status"
+        },
+        "name": "S37 Extension to Questionnaire of Unknown status"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "Questionnaire"
           }
         ],
@@ -392,6 +404,32 @@
           "reference": "StructureDefinition/s37-settings"
         },
         "name": "S37 Extension to Questionnaire.item"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/questionnaire-status-codesystem"
+        },
+        "name": "S37 Questionnaire Status (unknown) code system ",
+        "description": "S37 Questionnaire Status (unknown) code system"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/questionnaire-unknown-status-vs"
+        },
+        "name": "Questionnaire Unknown Status",
+        "description": "Questionnaire Unknown Status"
       },
       {
         "extension": [

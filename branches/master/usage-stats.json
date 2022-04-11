@@ -290,6 +290,14 @@
         "Dosage",
         "Meta"
       ]
+    },
+    {
+      "url": "http://science37.com/fhir/StructureDefinition/unknown-status",
+      "title": "S37 Extension to Questionnaire of Unknown status",
+      "types": [
+        "code",
+        "code"
+      ]
     }
   ],
   "profiles": {
@@ -333,6 +341,9 @@
     ],
     "http://science37.com/fhir/StructureDefinition/s37-settings": [
       "Questionnaire.item"
+    ],
+    "http://science37.com/fhir/StructureDefinition/unknown-status": [
+      "Questionnaire"
     ]
   }
 }

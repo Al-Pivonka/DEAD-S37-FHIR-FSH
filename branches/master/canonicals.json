@@ -1,5 +1,12 @@
 [
   {
+    "id": "questionnaire-status-codesystem",
+    "type": "CodeSystem",
+    "url": "http://science37.com/fhir/CodeSystem/questionnaire-status-codesystem",
+    "version": "0.1.0-test",
+    "name": "S37QuestionnaireStatusCodeSystem"
+  },
+  {
     "id": "questionnaire-s37",
     "type": "StructureDefinition",
     "url": "http://science37.com/fhir/StructureDefinition/questionnaire-s37",
@@ -12,6 +19,20 @@
     "url": "http://science37.com/fhir/StructureDefinition/s37-settings",
     "version": "0.1.0-test",
     "name": "S37Settings"
+  },
+  {
+    "id": "unknown-status",
+    "type": "StructureDefinition",
+    "url": "http://science37.com/fhir/StructureDefinition/unknown-status",
+    "version": "0.1.0-test",
+    "name": "UnknownStatus"
+  },
+  {
+    "id": "questionnaire-unknown-status-vs",
+    "type": "ValueSet",
+    "url": "http://science37.com/fhir/ValueSet/questionnaire-unknown-status-vs",
+    "version": "0.1.0-test",
+    "name": "QuestionnaireUnknownStatusVS"
   },
   {
     "id": "xxexample.fhir.uv.myig",

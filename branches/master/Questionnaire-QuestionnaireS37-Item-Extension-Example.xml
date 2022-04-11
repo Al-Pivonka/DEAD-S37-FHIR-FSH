@@ -10,13 +10,16 @@
 <tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck00.png)" id="item.isdfu9s0df8us8dfy" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon-q-text.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Text" class="hierarchy"/> isdfu9s0df8us8dfy</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">FOID-090s88s. Describe your current mood.</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/codesystem-item-type.html#item-type-text">text</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Definition: https://science37.com/NG/widget/id/choice2212/version/2.3<br/>Options: <a href="#opt-item.isdfu9s0df8us8dfy">3 options</a><br/>Initial Value: string = Answer Option 1</td></tr>
 <tr><td colspan="5" class="hierarchy"><br/><a href="http://hl7.org/fhir/R4/formats.html#table" title="Legend for this format"><img src="http://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr></table><hr/><p><b>Option Sets</b></p><a name="opt-item.isdfu9s0df8us8dfy"> </a><p><b>Answer options for isdfu9s0df8us8dfy</b></p><ul><li style="font-size: 11px">Answer Option 0</li><li style="font-size: 11px">Answer Option 1</li><li style="font-size: 11px">Answer Option 2</li></ul></div>
   </text>
+  <extension url="http://science37.com/fhir/StructureDefinition/unknown-status">
+    <valueCode value="deleted"/>
+  </extension>
   <url value="http://xxsomewhere.org/fhir/myig/Questionnaire/QuestionnaireS37-Item-Extension-Example"/>
   <version value="0.1.0-test"/>
   <name value="QuestionnaireS37-Item-Extension-Example"/>
   <title value="QuestionnaireS37-Item-Extension-Example"/>
   <status value="draft"/>
   <subjectType value="Patient"/>
-  <date value="2022-04-08T20:51:34+00:00"/>
+  <date value="2022-04-11T16:40:30+00:00"/>
   <publisher value="xxxYour Work Group"/>
   <contact>
     <telecom>

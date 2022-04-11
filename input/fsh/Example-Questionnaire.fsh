@@ -74,8 +74,8 @@ Usage: #example
 
 Instance: QuestionnaireS37-Unknown-Status-String-Example
 InstanceOf: QuestionnaireS37_3
-Title: "Example : QuestionnaireS37 Unknown Status Value Set"
-Description: "Example : QuestionnaireS37 Unknown Status Value Set"
+Title: "Example : QuestionnaireS37 Unknown Status String"
+Description: "Example : QuestionnaireS37 Unknown Status String"
 Usage: #example
 * status = #unknown
 * description = "Science 37 Unknown Status Example"

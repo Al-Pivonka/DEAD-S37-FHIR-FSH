@@ -28,12 +28,12 @@
   fhir:Questionnaire.version [ fhir:value "0.1.0-test"];
   fhir:Questionnaire.name [ fhir:value "QuestionnaireS37-Item-Extension-Example"];
   fhir:Questionnaire.title [ fhir:value "QuestionnaireS37-Item-Extension-Example"];
-  fhir:Questionnaire.status [ fhir:value "draft"];
+  fhir:Questionnaire.status [ fhir:value "unknown"];
   fhir:Questionnaire.subjectType [
      fhir:value "Patient";
      fhir:index 0
   ];
-  fhir:Questionnaire.date [ fhir:value "2022-04-11T16:40:30+00:00"^^xsd:dateTime];
+  fhir:Questionnaire.date [ fhir:value "2022-04-11T16:52:02+00:00"^^xsd:dateTime];
   fhir:Questionnaire.publisher [ fhir:value "xxxYour Work Group"];
   fhir:Questionnaire.contact [
      fhir:index 0;

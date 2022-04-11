@@ -79,8 +79,8 @@ Description: "Example : QuestionnaireS37 Unknown Status String"
 Usage: #example
 * status = #unknown
 * description = "Science 37 Unknown Status Example"
-* title = "Example : QuestionnaireS37 Unknown Status Value Set"
-* name = "Example : QuestionnaireS37 Unknown Status Value Set"
+* title = "Example : QuestionnaireS37 Unknown Status String"
+* name = "Example : QuestionnaireS37 Unknown Status String"
 * version = "1.2k33"
 * subjectType = #Patient
 * extension[UnknownStatusString].valueString = "fubar'd" 

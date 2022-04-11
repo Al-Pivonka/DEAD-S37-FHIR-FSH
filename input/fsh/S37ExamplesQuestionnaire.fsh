@@ -64,6 +64,9 @@ InstanceOf: QuestionnaireS37
 Description: "QuestionnaireS37 Unknown Status Example"
 Usage: #example
 * status = #unknown
+* description = "Science 37 Unknown Status Example"
+* title = "QuestionnaireS37-Unknown Status Example"
+* name = "QuestionnaireS37-Unknown Status Example"
 * version = "1.2k33"
 * subjectType = #Patient
 * extension[UnknownStatus].valueCode = S37QuestionnaireStatusCodeSystem#deleted 

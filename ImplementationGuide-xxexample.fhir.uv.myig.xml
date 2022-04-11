@@ -12,7 +12,7 @@
   <title value="Science37 FHIR IG"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2022-04-08T20:51:34+00:00"/>
+  <date value="2022-04-11T16:40:30+00:00"/>
   <publisher value="xxxYour Work Group"/>
   <contact>
     <telecom>
@@ -233,6 +233,15 @@
     </extension>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/unknown-status"/>
+      </reference>
+      <name value="S37 Extension to Questionnaire of Unknown status"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="Questionnaire"/>
       </extension>
       <reference>
@@ -249,6 +258,26 @@
         <reference value="StructureDefinition/s37-settings"/>
       </reference>
       <name value="S37 Extension to Questionnaire.item"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/questionnaire-status-codesystem"/>
+      </reference>
+      <name value="S37 Questionnaire Status (unknown) code system "/>
+      <description value="S37 Questionnaire Status (unknown) code system"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/questionnaire-unknown-status-vs"/>
+      </reference>
+      <name value="Questionnaire Unknown Status"/>
+      <description value="Questionnaire Unknown Status"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">

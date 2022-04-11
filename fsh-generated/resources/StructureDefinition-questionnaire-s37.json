@@ -69,6 +69,35 @@
   "differential": {
     "element": [
       {
+        "id": "Questionnaire.extension",
+        "path": "Questionnaire.extension",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "url"
+            }
+          ],
+          "ordered": false,
+          "rules": "open"
+        }
+      },
+      {
+        "id": "Questionnaire.extension:UnknownStatus",
+        "path": "Questionnaire.extension",
+        "sliceName": "UnknownStatus",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://science37.com/fhir/StructureDefinition/unknown-status"
+            ]
+          }
+        ]
+      },
+      {
         "id": "Questionnaire.item.extension",
         "path": "Questionnaire.item.extension",
         "slicing": {

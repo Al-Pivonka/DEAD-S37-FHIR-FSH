@@ -16,3 +16,4 @@ Description: "New QuestionnaireS37.Item extensions"
 *  item.required 1..1 MS
 *  item.repeats 1..1 MS
 *  item.extension contains S37Settings named Settings 1..1 MS
+*  extension contains UnknownStatus named UnknownStatus 0..1

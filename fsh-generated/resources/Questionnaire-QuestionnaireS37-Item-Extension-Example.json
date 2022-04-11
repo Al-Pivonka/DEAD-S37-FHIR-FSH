@@ -6,6 +6,12 @@
       "http://science37.com/fhir/StructureDefinition/questionnaire-s37"
     ]
   },
+  "extension": [
+    {
+      "url": "http://science37.com/fhir/StructureDefinition/unknown-status",
+      "valueCode": "deleted"
+    }
+  ],
   "item": [
     {
       "extension": [

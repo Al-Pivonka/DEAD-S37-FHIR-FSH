@@ -64,7 +64,30 @@
         "reference": {
           "reference": "StructureDefinition/s37-settings"
         },
-        "name": "Gerneral Settings Extension",
+        "name": "S37 Extension to Questionnaire.item",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/unknown-status"
+        },
+        "name": "S37 Extension to Questionnaire of Unknown status",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/questionnaire-unknown-status-vs"
+        },
+        "name": "Questionnaire Unknown Status",
+        "description": "Questionnaire Unknown Status",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/questionnaire-status-codesystem"
+        },
+        "name": "S37 Questionnaire Status (unknown) code system ",
+        "description": "S37 Questionnaire Status (unknown) code system ",
         "exampleBoolean": false
       },
       {

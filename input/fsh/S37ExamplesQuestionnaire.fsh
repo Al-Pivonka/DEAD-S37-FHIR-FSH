@@ -10,6 +10,7 @@ Usage: #example
 * name = "QuestionnaireS37-Item-Extension-Example"
 * version = "1.2k33"
 * subjectType = #Patient
+* extension[UnknownStatus].valueCode = S37QuestionnaireStatusCodeSystem#deleted 
 * item[0].type = #text
 * item[=].linkId = "isdfu9s0df8us8dfy"
 * item[=].text = "Describe your current mood."

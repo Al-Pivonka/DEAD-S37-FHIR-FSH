@@ -1,0 +1,25 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "active",
+  "content": "complete",
+  "name": "S37QuestionnaireStatusCodeSystem",
+  "id": "questionnaire-status-codesystem",
+  "title": "S37 Questionnaire Status (unknown) code system ",
+  "description": "S37 Questionnaire Status (unknown) code system ",
+  "version": "1.0.0",
+  "url": "http://science37.com/fhir/CodeSystem/questionnaire-status-codesystem",
+  "concept": [
+    {
+      "code": "deleted",
+      "display": "Deleted",
+      "definition": "Deleted"
+    },
+    {
+      "code": "rejected",
+      "display": "Rejected",
+      "definition": "Rejected"
+    }
+  ],
+  "caseSensitive": true,
+  "count": 2
+}

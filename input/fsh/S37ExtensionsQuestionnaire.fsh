@@ -99,3 +99,11 @@ Title:          "S37 Extension to Questionnaire.item"
 * extension[optionalPresets].value[x] only boolean
 * extension[foid].value[x] only string
     
+
+
+Extension:      UnknownStatus
+Id:             unknown-status
+Title:          "S37 Extension to Questionnaire of Unknown status"
+* ^context.expression = "Questionnaire"
+* value[x] only code
+* valueCode from QuestionnaireUnknownStatusVS (required)

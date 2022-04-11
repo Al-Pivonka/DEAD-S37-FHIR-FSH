@@ -1,0 +1,27 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "QuestionnaireUnknownStatusVS",
+  "id": "questionnaire-unknown-status-vs",
+  "title": "Questionnaire Unknown Status",
+  "description": "Questionnaire Unknown Status",
+  "version": "1.0.0",
+  "url": "http://science37.com/fhir/ValueSet/questionnaire-unknown-status-vs",
+  "compose": {
+    "include": [
+      {
+        "system": "http://science37.com/fhir/CodeSystem/questionnaire-status-codesystem",
+        "concept": [
+          {
+            "code": "deleted",
+            "display": "Deleted"
+          },
+          {
+            "code": "rejected",
+            "display": "Rejected"
+          }
+        ]
+      }
+    ]
+  }
+}

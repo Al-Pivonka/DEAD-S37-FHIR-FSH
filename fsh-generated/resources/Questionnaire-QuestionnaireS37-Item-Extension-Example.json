@@ -6,12 +6,6 @@
       "http://science37.com/fhir/StructureDefinition/questionnaire-s37"
     ]
   },
-  "extension": [
-    {
-      "url": "http://science37.com/fhir/StructureDefinition/unknown-status",
-      "valueCode": "deleted"
-    }
-  ],
   "item": [
     {
       "extension": [
@@ -186,7 +180,7 @@
       ]
     }
   ],
-  "status": "unknown",
+  "status": "draft",
   "description": "Science 37 Questionnaire.Item Form Template Widget Example",
   "title": "QuestionnaireS37-Item-Extension-Example",
   "name": "QuestionnaireS37-Item-Extension-Example",

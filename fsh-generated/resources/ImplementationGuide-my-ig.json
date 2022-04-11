@@ -97,6 +97,14 @@
         "name": "QuestionnaireS37-Item-Extension-Example",
         "description": "QuestionnaireS37.Item Extension Example",
         "exampleCanonical": "http://science37.com/fhir/StructureDefinition/questionnaire-s37"
+      },
+      {
+        "reference": {
+          "reference": "Questionnaire/QuestionnaireS37-Unknown-Status-Example"
+        },
+        "name": "QuestionnaireS37-Unknown-Status-Example",
+        "description": "QuestionnaireS37 Unknown Status Example",
+        "exampleCanonical": "http://science37.com/fhir/StructureDefinition/questionnaire-s37"
       }
     ],
     "page": {

@@ -1,6 +1,6 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "questionnaire-s37",
+  "id": "questionnaire-s371",
   "extension": [
     {
       "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-category",
@@ -11,9 +11,9 @@
       "valueCode": "business"
     }
   ],
-  "url": "http://science37.com/fhir/StructureDefinition/questionnaire-s37",
+  "url": "http://science37.com/fhir/StructureDefinition/questionnaire-s371",
   "version": "1.0.0",
-  "name": "QuestionnaireS37",
+  "name": "QuestionnaireS37_1",
   "title": "Profile : QuestionnaireS37",
   "status": "active",
   "date": "2022-04-07T10:59:49+00:00",
@@ -69,35 +69,6 @@
   "differential": {
     "element": [
       {
-        "id": "Questionnaire.extension",
-        "path": "Questionnaire.extension",
-        "slicing": {
-          "discriminator": [
-            {
-              "type": "value",
-              "path": "url"
-            }
-          ],
-          "ordered": false,
-          "rules": "open"
-        }
-      },
-      {
-        "id": "Questionnaire.extension:UnknownStatus",
-        "path": "Questionnaire.extension",
-        "sliceName": "UnknownStatus",
-        "min": 0,
-        "max": "1",
-        "type": [
-          {
-            "code": "Extension",
-            "profile": [
-              "http://science37.com/fhir/StructureDefinition/unknown-status"
-            ]
-          }
-        ]
-      },
-      {
         "id": "Questionnaire.item.extension",
         "path": "Questionnaire.item.extension",
         "slicing": {
@@ -143,12 +114,6 @@
       {
         "id": "Questionnaire.item.required",
         "path": "Questionnaire.item.required",
-        "min": 1,
-        "mustSupport": true
-      },
-      {
-        "id": "Questionnaire.item.repeats",
-        "path": "Questionnaire.item.repeats",
         "min": 1,
         "mustSupport": true
       }

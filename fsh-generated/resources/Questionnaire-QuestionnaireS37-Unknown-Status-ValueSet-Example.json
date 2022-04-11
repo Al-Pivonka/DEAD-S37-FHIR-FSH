@@ -1,0 +1,23 @@
+{
+  "resourceType": "Questionnaire",
+  "id": "QuestionnaireS37-Unknown-Status-ValueSet-Example",
+  "meta": {
+    "profile": [
+      "http://science37.com/fhir/StructureDefinition/questionnaire-s372"
+    ]
+  },
+  "extension": [
+    {
+      "url": "http://science37.com/fhir/StructureDefinition/unknown-status-valueset",
+      "valueCode": "deleted"
+    }
+  ],
+  "status": "unknown",
+  "description": "Science 37 Unknown Status Example",
+  "title": "Example : QuestionnaireS37 Unknown Status Value Set",
+  "name": "Example : QuestionnaireS37 Unknown Status Value Set",
+  "version": "1.2k33",
+  "subjectType": [
+    "Patient"
+  ]
+}

@@ -54,7 +54,23 @@
     "resource": [
       {
         "reference": {
-          "reference": "StructureDefinition/questionnaire-s37"
+          "reference": "StructureDefinition/questionnaire-s371"
+        },
+        "name": "Profile : QuestionnaireS37",
+        "description": "S37 Specific Questionnaire Profile",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/questionnaire-s372"
+        },
+        "name": "Profile : QuestionnaireS37",
+        "description": "S37 Specific Questionnaire Profile",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/questionnaire-s373"
         },
         "name": "Profile : QuestionnaireS37",
         "description": "S37 Specific Questionnaire Profile",
@@ -69,9 +85,16 @@
       },
       {
         "reference": {
-          "reference": "StructureDefinition/unknown-status"
+          "reference": "StructureDefinition/unknown-status-string"
         },
-        "name": "Extension : Questionnaire UnknownStatus",
+        "name": "Extension : Questionnaire UnknownStatus String",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/unknown-status-valueset"
+        },
+        "name": "Extension : Questionnaire UnknownStatus Value Set",
         "exampleBoolean": false
       },
       {
@@ -86,8 +109,8 @@
         "reference": {
           "reference": "CodeSystem/questionnaire-status-codesystem"
         },
-        "name": "CodeSystem : Questionnaire Status (unknown)",
-        "description": "CodeSystem : Questionnaire Status (unknown)",
+        "name": "CodeSystems : Questionnaire Status (unknown)",
+        "description": "CodeSystems : Questionnaire Status (unknown)",
         "exampleBoolean": false
       },
       {
@@ -96,15 +119,23 @@
         },
         "name": "Example : Questionnaire.Item Extension",
         "description": "Example : Questionnaire.Item Extension",
-        "exampleCanonical": "http://science37.com/fhir/StructureDefinition/questionnaire-s37"
+        "exampleCanonical": "http://science37.com/fhir/StructureDefinition/questionnaire-s371"
       },
       {
         "reference": {
-          "reference": "Questionnaire/QuestionnaireS37-Unknown-Status-Example"
+          "reference": "Questionnaire/QuestionnaireS37-Unknown-Status-String-Example"
         },
-        "name": "Example : QuestionnaireS37 Unknown Status",
-        "description": "Example : QuestionnaireS37 Unknown Status",
-        "exampleCanonical": "http://science37.com/fhir/StructureDefinition/questionnaire-s37"
+        "name": "Example : QuestionnaireS37 Unknown Status Value Set",
+        "description": "Example : QuestionnaireS37 Unknown Status Value Set",
+        "exampleCanonical": "http://science37.com/fhir/StructureDefinition/questionnaire-s373"
+      },
+      {
+        "reference": {
+          "reference": "Questionnaire/QuestionnaireS37-Unknown-Status-ValueSet-Example"
+        },
+        "name": "Example : QuestionnaireS37 Unknown Status Value Set",
+        "description": "Example : QuestionnaireS37 Unknown Status Value Set",
+        "exampleCanonical": "http://science37.com/fhir/StructureDefinition/questionnaire-s372"
       }
     ],
     "page": {

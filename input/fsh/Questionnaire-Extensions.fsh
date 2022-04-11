@@ -101,9 +101,16 @@ Title:          "Extension : Questionnaire.item "
     
 
 
-Extension:      UnknownStatus
-Id:             unknown-status
-Title:          "Extension : Questionnaire UnknownStatus"
+Extension:      UnknownStatusValueSet
+Id:             unknown-status-valueset
+Title:          "Extension : Questionnaire UnknownStatus Value Set"
 * ^context.expression = "Questionnaire"
 * value[x] only code
 * valueCode from QuestionnaireUnknownStatusVS (required)
+
+
+Extension:      UnknownStatusString
+Id:             unknown-status-string
+Title:          "Extension : Questionnaire UnknownStatus String"
+* ^context.expression = "Questionnaire"
+* value[x] only string

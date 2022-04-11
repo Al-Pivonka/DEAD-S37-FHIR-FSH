@@ -4,8 +4,8 @@
   "content": "complete",
   "name": "S37QuestionnaireStatusCodeSystem",
   "id": "questionnaire-status-codesystem",
-  "title": "CodeSystem : Questionnaire Status (unknown)",
-  "description": "CodeSystem : Questionnaire Status (unknown)",
+  "title": "CodeSystems : Questionnaire Status (unknown)",
+  "description": "CodeSystems : Questionnaire Status (unknown)",
   "version": "1.0.0",
   "url": "http://science37.com/fhir/CodeSystem/questionnaire-status-codesystem",
   "concept": [

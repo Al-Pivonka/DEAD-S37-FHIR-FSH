@@ -1,10 +1,10 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "unknown-status",
-  "url": "http://science37.com/fhir/StructureDefinition/unknown-status",
+  "id": "unknown-status-valueset",
+  "url": "http://science37.com/fhir/StructureDefinition/unknown-status-valueset",
   "version": "1.0.0",
-  "name": "UnknownStatus",
-  "title": "Extension : Questionnaire UnknownStatus",
+  "name": "UnknownStatusValueSet",
+  "title": "Extension : Questionnaire UnknownStatus Value Set",
   "status": "active",
   "fhirVersion": "4.0.1",
   "mapping": [
@@ -30,7 +30,7 @@
       {
         "id": "Extension",
         "path": "Extension",
-        "short": "Extension : Questionnaire UnknownStatus"
+        "short": "Extension : Questionnaire UnknownStatus Value Set"
       },
       {
         "id": "Extension.extension",
@@ -40,7 +40,7 @@
       {
         "id": "Extension.url",
         "path": "Extension.url",
-        "fixedUri": "http://science37.com/fhir/StructureDefinition/unknown-status"
+        "fixedUri": "http://science37.com/fhir/StructureDefinition/unknown-status-valueset"
       },
       {
         "id": "Extension.value[x]",

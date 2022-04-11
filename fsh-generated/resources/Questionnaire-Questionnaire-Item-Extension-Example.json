@@ -3,7 +3,7 @@
   "id": "Questionnaire-Item-Extension-Example",
   "meta": {
     "profile": [
-      "http://science37.com/fhir/StructureDefinition/questionnaire-s37"
+      "http://science37.com/fhir/StructureDefinition/questionnaire-s371"
     ]
   },
   "item": [
@@ -161,7 +161,6 @@
       "prefix": "FOID-090s88s",
       "definition": "https://science37.com/NG/widget/id/choice2212/version/2.3",
       "required": true,
-      "repeats": false,
       "initial": [
         {
           "valueString": "Answer Option 1"

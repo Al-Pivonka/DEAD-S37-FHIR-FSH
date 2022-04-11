@@ -32,7 +32,7 @@
       "name": "Message structure"
     }
   ],
-  "description": "New QuestionnaireS37.Item extensions",
+  "description": "S37 Specific Questionnaire Profile",
   "fhirVersion": "4.0.1",
   "mapping": [
     {

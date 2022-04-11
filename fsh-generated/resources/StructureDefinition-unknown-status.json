@@ -4,7 +4,7 @@
   "url": "http://science37.com/fhir/StructureDefinition/unknown-status",
   "version": "1.0.0",
   "name": "UnknownStatus",
-  "title": "S37 Extension to Questionnaire of Unknown status",
+  "title": "Questionnaire UnknownStatus Extension",
   "status": "active",
   "fhirVersion": "4.0.1",
   "mapping": [
@@ -30,7 +30,7 @@
       {
         "id": "Extension",
         "path": "Extension",
-        "short": "S37 Extension to Questionnaire of Unknown status"
+        "short": "Questionnaire UnknownStatus Extension"
       },
       {
         "id": "Extension.extension",

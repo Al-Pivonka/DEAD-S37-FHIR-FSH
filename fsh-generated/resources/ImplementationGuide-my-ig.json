@@ -57,21 +57,21 @@
           "reference": "StructureDefinition/questionnaire-s37"
         },
         "name": "QuestionnaireS37",
-        "description": "New QuestionnaireS37.Item extensions",
+        "description": "S37 Specific Questionnaire Profile",
         "exampleBoolean": false
       },
       {
         "reference": {
           "reference": "StructureDefinition/s37-settings"
         },
-        "name": "S37 Extension to Questionnaire.item",
+        "name": "Questionnaire.item Extension",
         "exampleBoolean": false
       },
       {
         "reference": {
           "reference": "StructureDefinition/unknown-status"
         },
-        "name": "S37 Extension to Questionnaire of Unknown status",
+        "name": "Questionnaire UnknownStatus Extension",
         "exampleBoolean": false
       },
       {
@@ -92,10 +92,10 @@
       },
       {
         "reference": {
-          "reference": "Questionnaire/QuestionnaireS37-Item-Extension-Example"
+          "reference": "Questionnaire/Questionnaire-Item-Extension-Example"
         },
-        "name": "QuestionnaireS37-Item-Extension-Example",
-        "description": "QuestionnaireS37.Item Extension Example",
+        "name": "Questionnaire-Item-Extension-Example",
+        "description": "Questionnaire.Item Extension Example",
         "exampleCanonical": "http://science37.com/fhir/StructureDefinition/questionnaire-s37"
       },
       {

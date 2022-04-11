@@ -2,7 +2,7 @@ Profile: QuestionnaireS37
 Parent: Questionnaire
 Id: questionnaire-s37
 Title: "QuestionnaireS37"
-Description: "New QuestionnaireS37.Item extensions"
+Description: "S37 Specific Questionnaire Profile"
 * ^version = "1.0.0"
 * ^status = #active
 * ^date = "2022-04-07T10:59:49+00:00"

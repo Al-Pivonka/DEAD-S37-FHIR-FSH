@@ -4,7 +4,7 @@
   "url": "http://science37.com/fhir/StructureDefinition/s37-settings",
   "version": "1.0.0",
   "name": "S37Settings",
-  "title": "S37 Extension to Questionnaire.item",
+  "title": "Questionnaire.item Extension",
   "status": "active",
   "fhirVersion": "4.0.1",
   "mapping": [
@@ -30,7 +30,7 @@
       {
         "id": "Extension",
         "path": "Extension",
-        "short": "S37 Extension to Questionnaire.item"
+        "short": "Questionnaire.item Extension"
       },
       {
         "id": "Extension.extension:title",

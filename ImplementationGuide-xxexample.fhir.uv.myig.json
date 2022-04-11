@@ -11,7 +11,7 @@
   "title": "Science37 FHIR IG",
   "status": "draft",
   "experimental": false,
-  "date": "2022-04-11T17:19:31+00:00",
+  "date": "2022-04-11T17:46:13+00:00",
   "publisher": "xxxYour Work Group",
   "contact": [
     {
@@ -378,7 +378,7 @@
         "reference": {
           "reference": "Questionnaire/QuestionnaireS37-Unknown-Status-Example"
         },
-        "name": "QuestionnaireS37-Unknown Status Example",
+        "name": "Questionnaire-Unknown Status Example",
         "description": "Science 37 Unknown Status Example"
       },
       {
@@ -391,20 +391,7 @@
         "reference": {
           "reference": "StructureDefinition/unknown-status"
         },
-        "name": "S37 Extension to Questionnaire of Unknown status"
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "Questionnaire"
-          }
-        ],
-        "reference": {
-          "reference": "Questionnaire/QuestionnaireS37-Item-Extension-Example"
-        },
-        "name": "QuestionnaireS37-Item-Extension-Example",
-        "description": "Science 37 Questionnaire.Item Form Template Widget Example"
+        "name": "Questionnaire UnknownStatus Extension"
       },
       {
         "extension": [
@@ -416,7 +403,7 @@
         "reference": {
           "reference": "StructureDefinition/s37-settings"
         },
-        "name": "S37 Extension to Questionnaire.item"
+        "name": "Questionnaire.item Extension"
       },
       {
         "extension": [
@@ -455,7 +442,20 @@
           "reference": "StructureDefinition/questionnaire-s37"
         },
         "name": "QuestionnaireS37",
-        "description": "New QuestionnaireS37.Item extensions"
+        "description": "S37 Specific Questionnaire Profile"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Questionnaire"
+          }
+        ],
+        "reference": {
+          "reference": "Questionnaire/Questionnaire-Item-Extension-Example"
+        },
+        "name": "Questionnaire-Item-Extension-Example",
+        "description": "Science 37 Questionnaire.Item Form Template Widget Example"
       }
     ],
     "page": {

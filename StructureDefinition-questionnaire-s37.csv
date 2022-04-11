@@ -53,7 +53,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "Questionnaire.derivedFrom","","","",0,*,"","","","canonical {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Questionnaire]]}
 ","Instantiates protocol or definition","The URL of a Questionnaire that this Questionnaire is based on.","","Allows a Questionnaire to be created based on another Questionnaire.","","","","","","","",,,,,"",,,,"Questionnaire.derivedFrom",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","Definition.derivedFrom",".outboundRelationship[typeCode=DRIV].target[classCode=OBS, moodCode=DEFN]"
-"Questionnaire.status","","","",1,1,"","Y","Y","code {[]} {[]}
+"Questionnaire.status","","","",1,1,"Y","Y","Y","code {[]} {[]}
 ","draft | active | retired | unknown","The status of this questionnaire. Enables tracking the life-cycle of the content.","Allows filtering of questionnaires that are appropriate for use versus not.","","","","","","","","",,"required","The lifecycle status of an artifact.","http://hl7.org/fhir/ValueSet/publication-status|4.0.1","",,,,"Questionnaire.status",1,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","Definition.status",".status","FiveWs.status"
 "Questionnaire.experimental","","","",0,1,"","","Y","boolean {[]} {[]}

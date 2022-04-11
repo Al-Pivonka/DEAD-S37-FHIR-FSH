@@ -18,7 +18,7 @@
   fhir:ImplementationGuide.title [ fhir:value "Science37 FHIR IG"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
   fhir:ImplementationGuide.experimental [ fhir:value "false"^^xsd:boolean];
-  fhir:ImplementationGuide.date [ fhir:value "2022-04-11T17:19:31+00:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2022-04-11T17:46:13+00:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "xxxYour Work Group"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
@@ -356,7 +356,7 @@
          fhir:link <http://xxsomewhere.org/fhir/myig/Questionnaire/QuestionnaireS37-Unknown-Status-Example>;
          fhir:Reference.reference [ fhir:value "Questionnaire/QuestionnaireS37-Unknown-Status-Example" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "QuestionnaireS37-Unknown Status Example" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Questionnaire-Unknown Status Example" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Science 37 Unknown Status Example" ]
      ], [
        fhir:index 1;
@@ -369,22 +369,9 @@
          fhir:link <http://xxsomewhere.org/fhir/myig/StructureDefinition/unknown-status>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/unknown-status" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "S37 Extension to Questionnaire of Unknown status" ]
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Questionnaire UnknownStatus Extension" ]
      ], [
        fhir:index 2;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "Questionnaire" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://xxsomewhere.org/fhir/myig/Questionnaire/QuestionnaireS37-Item-Extension-Example>;
-         fhir:Reference.reference [ fhir:value "Questionnaire/QuestionnaireS37-Item-Extension-Example" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "QuestionnaireS37-Item-Extension-Example" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Science 37 Questionnaire.Item Form Template Widget Example" ]
-     ], [
-       fhir:index 3;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -394,9 +381,9 @@
          fhir:link <http://xxsomewhere.org/fhir/myig/StructureDefinition/s37-settings>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/s37-settings" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "S37 Extension to Questionnaire.item" ]
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Questionnaire.item Extension" ]
      ], [
-       fhir:index 4;
+       fhir:index 3;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -409,7 +396,7 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "S37 Questionnaire Status (unknown) code system " ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "S37 Questionnaire Status (unknown) code system" ]
      ], [
-       fhir:index 5;
+       fhir:index 4;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -422,7 +409,7 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Questionnaire Unknown Status" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Questionnaire Unknown Status" ]
      ], [
-       fhir:index 6;
+       fhir:index 5;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -433,7 +420,20 @@
          fhir:Reference.reference [ fhir:value "StructureDefinition/questionnaire-s37" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "QuestionnaireS37" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "New QuestionnaireS37.Item extensions" ]
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "S37 Specific Questionnaire Profile" ]
+     ], [
+       fhir:index 6;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Questionnaire" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://xxsomewhere.org/fhir/myig/Questionnaire/Questionnaire-Item-Extension-Example>;
+         fhir:Reference.reference [ fhir:value "Questionnaire/Questionnaire-Item-Extension-Example" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Questionnaire-Item-Extension-Example" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Science 37 Questionnaire.Item Form Template Widget Example" ]
      ];
      fhir:ImplementationGuide.definition.page [
        fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "toc.html" ];

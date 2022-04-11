@@ -1,10 +1,10 @@
 ﻿Science37 FHIR IG : Validation Results
 =========================================
 
-err = 16, warn = 8, info = 3
+err = 15, warn = 7, info = 3
 IG Publisher Version: 1.1.114
-Generated Mon Apr 11 17:09:40 UTC 2022. FHIR version 4.0.1 for xxexample.fhir.uv.myig#0.1.0-test (canonical = http://xxsomewhere.org/fhir/myig)
- Build Errors : 3 / 3 / 0
+Generated Mon Apr 11 17:19:56 UTC 2022. FHIR version 4.0.1 for xxexample.fhir.uv.myig#0.1.0-test (canonical = http://xxsomewhere.org/fhir/myig)
+ Build Errors : 2 / 2 / 0
  /github/workspace/fsh-generated/resources/CodeSystem-questionnaire-status-codesystem : 2 / 1 / 1
  /github/workspace/fsh-generated/resources/Questionnaire-QuestionnaireS37-Item-Extension-Example : 5 / 1 / 4
  /github/workspace/fsh-generated/resources/Questionnaire-QuestionnaireS37-Unknown-Status-Example : 0 / 1 / 1
@@ -15,8 +15,6 @@ Generated Mon Apr 11 17:09:40 UTC 2022. FHIR version 4.0.1 for xxexample.fhir.uv
  /github/workspace/input/myig : 0 / 2 / 1
 </table>
 == n/a ==
-ERROR: Unable to find ImplementationGuide.definition.resource.name for the resource Questionnaire/QuestionnaireS37-Unknown-Status-Example.  Name is mandatory if it cannot be inferred from the resource to allow proper population of the artifact list.
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Questionnaire/QuestionnaireS37-Unknown-Status-Example.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/unknown-status.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/s37-settings.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 ERROR: /github/workspace/output/Questionnaire-QuestionnaireS37-Item-Extension-Example-form.html: Unable to read attribute on <div> at line 215 column 71

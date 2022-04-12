@@ -18,7 +18,7 @@
   "url": "http://science37.com/fhir/StructureDefinition/questionnaire-s372",
   "version": "0.1.0-test",
   "name": "QuestionnaireS37_2",
-  "title": "Questionnaire",
+  "title": "Profile : Questionnaire Value Set Unknown Status",
   "status": "active",
   "date": "2022-04-07T10:59:49+00:00",
   "publisher": "xxxYour Work Group",
@@ -32,7 +32,7 @@
       ]
     }
   ],
-  "description": "Profile : Questionnaire Value Set Unknown Status",
+  "description": "S37 Specific Questionnaire Profile",
   "jurisdiction": [
     {
       "coding": [

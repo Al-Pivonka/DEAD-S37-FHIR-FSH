@@ -24,7 +24,7 @@
   fhir:StructureDefinition.url [ fhir:value "http://science37.com/fhir/StructureDefinition/questionnaire-s373"];
   fhir:StructureDefinition.version [ fhir:value "0.1.0-test"];
   fhir:StructureDefinition.name [ fhir:value "QuestionnaireS37_3"];
-  fhir:StructureDefinition.title [ fhir:value "Questionnaire"];
+  fhir:StructureDefinition.title [ fhir:value "Profile : Questionnaire String Unknown Status"];
   fhir:StructureDefinition.status [ fhir:value "active"];
   fhir:StructureDefinition.date [ fhir:value "2022-04-07T10:59:49+00:00"^^xsd:dateTime];
   fhir:StructureDefinition.publisher [ fhir:value "xxxYour Work Group"];
@@ -36,7 +36,7 @@
        fhir:ContactPoint.value [ fhir:value "http://xxhl7.org/Special/committees/[something]" ]
      ]
   ];
-  fhir:StructureDefinition.description [ fhir:value "Profile : Questionnaire String Unknown Status"];
+  fhir:StructureDefinition.description [ fhir:value "S37 Specific Questionnaire Profile"];
   fhir:StructureDefinition.jurisdiction [
      fhir:index 0;
      fhir:CodeableConcept.coding [

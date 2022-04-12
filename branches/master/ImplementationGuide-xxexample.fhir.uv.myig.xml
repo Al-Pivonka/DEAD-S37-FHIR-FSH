@@ -12,7 +12,7 @@
   <title value="Science37 FHIR IG"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2022-04-12T17:18:11+00:00"/>
+  <date value="2022-04-12T17:49:55+00:00"/>
   <publisher value="xxxYour Work Group"/>
   <contact>
     <telecom>
@@ -279,6 +279,15 @@
       </reference>
       <name value="CodeSystems : Questionnaire Status (unknown)"/>
       <description value="CodeSystems : Questionnaire Status (unknown)"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Questionnaire"/>
+      </extension>
+      <reference>
+        <reference value="Questionnaire/Questionnaire-Item-AnswerOption-Example"/>
+      </reference>
+      <name value="Example : Questionnaire.Answer Options"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">

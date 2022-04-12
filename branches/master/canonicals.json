@@ -63,6 +63,13 @@
     "name": "Science37 FHIR IG"
   },
   {
+    "id": "Questionnaire-Item-AnswerOption-Example",
+    "type": "Questionnaire",
+    "url": "http://xxsomewhere.org/fhir/myig/Questionnaire/Questionnaire-Item-AnswerOption-Example",
+    "version": "0.1.0-test",
+    "name": "Example : Questionnaire.Answer Options"
+  },
+  {
     "id": "Questionnaire-Item-Extension-Example",
     "type": "Questionnaire",
     "url": "http://xxsomewhere.org/fhir/myig/Questionnaire/Questionnaire-Item-Extension-Example",

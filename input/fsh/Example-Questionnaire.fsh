@@ -21,7 +21,7 @@ Usage: #example
 * item[=].answerOption[1].valueString = "Answer Option 1"
 * item[=].answerOption[2].valueString = "Answer Option 2"
 * item[=].extension[Settings].extension[title].valueString = "The Title"
-* item[=].extension[Settings].extension[lable].valueString = "The lable"
+* item[=].extension[Settings].extension[label].valueString = "The lable"
 * item[=].extension[Settings].extension[variableName].valueString = "The variableName"
 * item[=].extension[Settings].extension[standardVariable].valueString = "The standardVariable"
 * item[=].extension[Settings].extension[fieldCode].valueString = "The fieldCode"

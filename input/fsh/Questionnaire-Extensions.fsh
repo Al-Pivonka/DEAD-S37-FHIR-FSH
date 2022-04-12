@@ -4,7 +4,7 @@ Title:          "Extension : Questionnaire.item "
 * ^context.expression = "Questionnaire.item"
 * extension contains
     title 0..1 and
-    lable 0..1 and
+    label 0..1 and
     variableName 0..1 and
     standardVariable 0..1 and
     fieldCode 0..1 and
@@ -38,8 +38,8 @@ Title:          "Extension : Questionnaire.item "
     foid 0..1
 * extension[title] ^short = "title"*
 * extension[title].value[x] only string
-* extension[lable] ^short = "description"
-* extension[lable].value[x] only string
+* extension[label] ^short = "description"
+* extension[label].value[x] only string
 * extension[variableName] ^short = "description"
 * extension[variableName].value[x] only string
 * extension[standardVariable] ^short = "description"

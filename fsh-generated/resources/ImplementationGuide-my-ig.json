@@ -78,7 +78,7 @@
       },
       {
         "reference": {
-          "reference": "StructureDefinition/s37-settings"
+          "reference": "StructureDefinition/settings"
         },
         "name": "Extension : Questionnaire.item ",
         "exampleBoolean": false

@@ -93,7 +93,7 @@
           {
             "code": "Extension",
             "profile": [
-              "http://science37.com/fhir/StructureDefinition/s37-settings"
+              "http://science37.com/fhir/StructureDefinition/settings"
             ]
           }
         ],

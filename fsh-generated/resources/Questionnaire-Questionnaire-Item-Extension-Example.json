@@ -10,14 +10,14 @@
     {
       "extension": [
         {
-          "url": "http://science37.com/fhir/StructureDefinition/s37-settings",
+          "url": "http://science37.com/fhir/StructureDefinition/settings",
           "extension": [
             {
               "url": "title",
               "valueString": "The Title"
             },
             {
-              "url": "lable",
+              "url": "label",
               "valueString": "The lable"
             },
             {

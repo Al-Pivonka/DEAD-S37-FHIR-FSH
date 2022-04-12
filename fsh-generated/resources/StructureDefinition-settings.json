@@ -1,9 +1,9 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "s37-settings",
-  "url": "http://science37.com/fhir/StructureDefinition/s37-settings",
+  "id": "settings",
+  "url": "http://science37.com/fhir/StructureDefinition/settings",
   "version": "1.0.0",
-  "name": "S37Settings",
+  "name": "Settings",
   "title": "Extension : Questionnaire.item ",
   "status": "active",
   "fhirVersion": "4.0.1",
@@ -60,25 +60,25 @@
         ]
       },
       {
-        "id": "Extension.extension:lable",
+        "id": "Extension.extension:label",
         "path": "Extension.extension",
-        "sliceName": "lable",
+        "sliceName": "label",
         "short": "description",
         "min": 0,
         "max": "1"
       },
       {
-        "id": "Extension.extension:lable.extension",
+        "id": "Extension.extension:label.extension",
         "path": "Extension.extension.extension",
         "max": "0"
       },
       {
-        "id": "Extension.extension:lable.url",
+        "id": "Extension.extension:label.url",
         "path": "Extension.extension.url",
-        "fixedUri": "lable"
+        "fixedUri": "label"
       },
       {
-        "id": "Extension.extension:lable.value[x]",
+        "id": "Extension.extension:label.value[x]",
         "path": "Extension.extension.value[x]",
         "type": [
           {
@@ -895,7 +895,7 @@
       {
         "id": "Extension.url",
         "path": "Extension.url",
-        "fixedUri": "http://science37.com/fhir/StructureDefinition/s37-settings"
+        "fixedUri": "http://science37.com/fhir/StructureDefinition/settings"
       },
       {
         "id": "Extension.value[x]",

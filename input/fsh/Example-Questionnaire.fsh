@@ -16,10 +16,11 @@ Usage: #example
 * item[=].prefix = "FOID-090s88s"
 * item[=].definition = "https://science37.com/NG/widget/id/choice2212/version/2.3"
 * item[=].required = true
-* item[=].initial.valueString = "Answer Option 1"
+/* item[=].initial.valueString = "Answer Option 1"
 * item[=].answerOption[0].valueString = "Answer Option 0"
 * item[=].answerOption[1].valueString = "Answer Option 1"
 * item[=].answerOption[2].valueString = "Answer Option 2"
+*/
 * item[=].extension[Settings].extension[title].valueString = "The Title"
 * item[=].extension[Settings].extension[label].valueString = "The lable"
 * item[=].extension[Settings].extension[variableName].valueString = "The variableName"

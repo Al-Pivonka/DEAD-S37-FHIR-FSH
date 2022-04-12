@@ -18,7 +18,7 @@
   fhir:ImplementationGuide.title [ fhir:value "Science37 FHIR IG"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
   fhir:ImplementationGuide.experimental [ fhir:value "false"^^xsd:boolean];
-  fhir:ImplementationGuide.date [ fhir:value "2022-04-11T20:51:46+00:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2022-04-12T16:41:17+00:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "xxxYour Work Group"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
@@ -375,18 +375,6 @@
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://xxsomewhere.org/fhir/myig/StructureDefinition/s37-settings>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/s37-settings" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Extension : Questionnaire.item " ]
-     ], [
-       fhir:index 3;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
          fhir:Extension.valueString [ fhir:value "Questionnaire" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
@@ -395,6 +383,18 @@
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Example : QuestionnaireS37 Unknown Status String" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Science 37 Unknown Status Example" ]
+     ], [
+       fhir:index 3;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://xxsomewhere.org/fhir/myig/StructureDefinition/settings>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/settings" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Extension : Questionnaire.item " ]
      ], [
        fhir:index 4;
        fhir:Element.extension [

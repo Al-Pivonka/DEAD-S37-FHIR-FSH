@@ -12,7 +12,7 @@
   <title value="Science37 FHIR IG"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2022-04-11T20:51:46+00:00"/>
+  <date value="2022-04-12T16:41:17+00:00"/>
   <publisher value="xxxYour Work Group"/>
   <contact>
     <telecom>
@@ -252,15 +252,6 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:extension"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/s37-settings"/>
-      </reference>
-      <name value="Extension : Questionnaire.item "/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="Questionnaire"/>
       </extension>
       <reference>
@@ -268,6 +259,15 @@
       </reference>
       <name value="Example : QuestionnaireS37 Unknown Status String"/>
       <description value="Science 37 Unknown Status Example"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/settings"/>
+      </reference>
+      <name value="Extension : Questionnaire.item "/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">

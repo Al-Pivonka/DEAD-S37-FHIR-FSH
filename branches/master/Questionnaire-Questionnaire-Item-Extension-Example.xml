@@ -16,7 +16,7 @@
   <title value="Example : Questionnaire.Item Extension"/>
   <status value="draft"/>
   <subjectType value="Patient"/>
-  <date value="2022-04-11T20:51:46+00:00"/>
+  <date value="2022-04-12T16:41:17+00:00"/>
   <publisher value="xxxYour Work Group"/>
   <contact>
     <telecom>
@@ -31,7 +31,7 @@
     </coding>
   </jurisdiction>
   <item>
-    <extension url="http://science37.com/fhir/StructureDefinition/s37-settings">
+    <extension url="http://science37.com/fhir/StructureDefinition/settings">
       <extension url="title">
         <valueString value="The Title"/>
       </extension>

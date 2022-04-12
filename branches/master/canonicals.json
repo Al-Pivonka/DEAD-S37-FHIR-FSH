@@ -28,11 +28,11 @@
     "name": "QuestionnaireS37_3"
   },
   {
-    "id": "s37-settings",
+    "id": "settings",
     "type": "StructureDefinition",
-    "url": "http://science37.com/fhir/StructureDefinition/s37-settings",
+    "url": "http://science37.com/fhir/StructureDefinition/settings",
     "version": "0.1.0-test",
-    "name": "S37Settings"
+    "name": "Settings"
   },
   {
     "id": "unknown-status-string",

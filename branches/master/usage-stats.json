@@ -5,7 +5,7 @@
   "jurisdiction": "001",
   "extensions": [
     {
-      "url": "http://science37.com/fhir/StructureDefinition/s37-settings",
+      "url": "http://science37.com/fhir/StructureDefinition/settings",
       "title": "Extension : Questionnaire.item ",
       "types": [
         "string",
@@ -354,7 +354,7 @@
     "http://hl7.org/fhir/tools/StructureDefinition/resource-information": [
       "ImplementationGuide.definition.resource"
     ],
-    "http://science37.com/fhir/StructureDefinition/s37-settings": [
+    "http://science37.com/fhir/StructureDefinition/settings": [
       "Questionnaire.item"
     ],
     "http://science37.com/fhir/StructureDefinition/unknown-status-string": [

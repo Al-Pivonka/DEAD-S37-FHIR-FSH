@@ -85,3 +85,28 @@ Usage: #example
 * version = "1.2k33"
 * subjectType = #Patient
 * extension[UnknownStatusString].valueString = "fubar'd" 
+
+
+
+
+
+Instance: Questionnaire-Item-AnswerOption-Example
+InstanceOf: QuestionnaireS37_1
+Title: "Example : Questionnaire.Item Answer Options"
+Description: "Example : Questionnaire.Answer Options"
+Usage: #example
+* status = #draft
+* title = "Example : Questionnaire.Answer Options"
+* name = "Example : Questionnaire.Answer Options"
+* version = "1.2k33"
+* subjectType = #Patient
+* item[0].type = #text
+* item[=].linkId = "isdfu9s0df8us8dfy"
+* item[=].text = "Describe your current mood."
+* item[=].prefix = "FOID-090s88s"
+* item[=].definition = "https://science37.com/NG/widget/id/choice2212/version/2.3"
+* item[=].required = true
+* item[=].initial.valueString = "Answer Option 1"
+* item[=].answerOption[0].valueString = "Answer Option 0"
+* item[=].answerOption[1].valueString = "Answer Option 1"
+* item[=].answerOption[2].valueString = "Answer Option 2"

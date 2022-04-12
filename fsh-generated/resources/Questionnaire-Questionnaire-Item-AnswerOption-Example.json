@@ -1,0 +1,42 @@
+{
+  "resourceType": "Questionnaire",
+  "id": "Questionnaire-Item-AnswerOption-Example",
+  "meta": {
+    "profile": [
+      "http://science37.com/fhir/StructureDefinition/questionnaire-s371"
+    ]
+  },
+  "status": "draft",
+  "title": "Example : Questionnaire.Answer Options",
+  "name": "Example : Questionnaire.Answer Options",
+  "version": "1.2k33",
+  "subjectType": [
+    "Patient"
+  ],
+  "item": [
+    {
+      "type": "text",
+      "linkId": "isdfu9s0df8us8dfy",
+      "text": "Describe your current mood.",
+      "prefix": "FOID-090s88s",
+      "definition": "https://science37.com/NG/widget/id/choice2212/version/2.3",
+      "required": true,
+      "initial": [
+        {
+          "valueString": "Answer Option 1"
+        }
+      ],
+      "answerOption": [
+        {
+          "valueString": "Answer Option 0"
+        },
+        {
+          "valueString": "Answer Option 1"
+        },
+        {
+          "valueString": "Answer Option 2"
+        }
+      ]
+    }
+  ]
+}

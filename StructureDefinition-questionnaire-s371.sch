@@ -188,7 +188,6 @@
   <sch:pattern>
     <sch:title>f:Questionnaire/f:item</sch:title>
     <sch:rule context="f:Questionnaire/f:item">
-      <sch:assert test="count(f:extension[@url = 'http://science37.com/fhir/StructureDefinition/settings']) &gt;= 1">extension with URL = 'http://science37.com/fhir/StructureDefinition/settings': minimum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:extension[@url = 'http://science37.com/fhir/StructureDefinition/settings']) &lt;= 1">extension with URL = 'http://science37.com/fhir/StructureDefinition/settings': maximum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:definition) &gt;= 1">definition: minimum cardinality of 'definition' is 1</sch:assert>
       <sch:assert test="count(f:text) &gt;= 1">text: minimum cardinality of 'text' is 1</sch:assert>

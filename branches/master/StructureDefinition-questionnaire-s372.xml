@@ -18,7 +18,7 @@
   <url value="http://science37.com/fhir/StructureDefinition/questionnaire-s372"/>
   <version value="0.1.0-test"/>
   <name value="QuestionnaireS37_2"/>
-  <title value="Questionnaire"/>
+  <title value="Profile : Questionnaire Value Set Unknown Status"/>
   <status value="active"/>
   <date value="2022-04-07T10:59:49+00:00"/>
   <publisher value="xxxYour Work Group"/>
@@ -28,7 +28,7 @@
       <value value="http://xxhl7.org/Special/committees/[something]"/>
     </telecom>
   </contact>
-  <description value="Profile : Questionnaire Value Set Unknown Status"/>
+  <description value="S37 Specific Questionnaire Profile"/>
   <jurisdiction>
     <coding>
       <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>

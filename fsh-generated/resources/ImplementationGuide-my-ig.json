@@ -116,6 +116,14 @@
       },
       {
         "reference": {
+          "reference": "Questionnaire/Questionnaire-Item-AnswerOption-Example"
+        },
+        "name": "Example : Questionnaire.Item Answer Options",
+        "description": "Example : Questionnaire.Answer Options",
+        "exampleCanonical": "http://science37.com/fhir/StructureDefinition/questionnaire-s371"
+      },
+      {
+        "reference": {
           "reference": "Questionnaire/Questionnaire-Item-Extension-Example"
         },
         "name": "Example : Questionnaire.Item Extension",

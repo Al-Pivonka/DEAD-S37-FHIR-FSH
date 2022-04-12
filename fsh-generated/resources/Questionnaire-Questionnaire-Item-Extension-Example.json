@@ -10,7 +10,6 @@
     {
       "extension": [
         {
-          "url": "http://science37.com/fhir/StructureDefinition/settings",
           "extension": [
             {
               "url": "title",
@@ -152,7 +151,8 @@
               "url": "optionalPresets",
               "valueBoolean": false
             }
-          ]
+          ],
+          "url": "http://science37.com/fhir/StructureDefinition/settings"
         }
       ],
       "type": "text",
@@ -160,23 +160,7 @@
       "text": "Describe your current mood.",
       "prefix": "FOID-090s88s",
       "definition": "https://science37.com/NG/widget/id/choice2212/version/2.3",
-      "required": true,
-      "initial": [
-        {
-          "valueString": "Answer Option 1"
-        }
-      ],
-      "answerOption": [
-        {
-          "valueString": "Answer Option 0"
-        },
-        {
-          "valueString": "Answer Option 1"
-        },
-        {
-          "valueString": "Answer Option 2"
-        }
-      ]
+      "required": true
     }
   ],
   "status": "draft",

@@ -80,14 +80,13 @@
           ],
           "ordered": false,
           "rules": "open"
-        },
-        "min": 1
+        }
       },
       {
         "id": "Questionnaire.item.extension:Settings",
         "path": "Questionnaire.item.extension",
         "sliceName": "Settings",
-        "min": 1,
+        "min": 0,
         "max": "1",
         "type": [
           {

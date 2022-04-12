@@ -14,7 +14,7 @@ Description: "Profile : Questionnaire.item extensions"
 *  item.definition 1..1 MS
 *  item.text 1..1 MS
 *  item.required 1..1 MS
-*  item.extension contains Settings named Settings 1..1 MS
+*  item.extension contains Settings named Settings 0..1 MS
 
 
 

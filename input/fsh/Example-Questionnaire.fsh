@@ -90,7 +90,7 @@ Usage: #example
 
 
 
-Instance: Questionnaire-Item-Extension-Example
+Instance: Questionnaire-Item-AnswerOption-Example
 InstanceOf: QuestionnaireS37_1
 Title: "Example : Questionnaire.Item Answer Options"
 Description: "Example : Questionnaire.Answer Options"

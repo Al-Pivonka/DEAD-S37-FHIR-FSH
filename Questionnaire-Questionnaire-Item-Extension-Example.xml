@@ -16,7 +16,7 @@
   <title value="Example : Questionnaire.Item Extension"/>
   <status value="draft"/>
   <subjectType value="Patient"/>
-  <date value="2022-04-12T16:41:17+00:00"/>
+  <date value="2022-04-12T16:48:09+00:00"/>
   <publisher value="xxxYour Work Group"/>
   <contact>
     <telecom>
@@ -35,7 +35,7 @@
       <extension url="title">
         <valueString value="The Title"/>
       </extension>
-      <extension url="lable">
+      <extension url="label">
         <valueString value="The lable"/>
       </extension>
       <extension url="variableName">

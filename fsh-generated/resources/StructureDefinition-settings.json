@@ -4,7 +4,7 @@
   "url": "http://science37.com/fhir/StructureDefinition/settings",
   "version": "1.0.0",
   "name": "Settings",
-  "title": "Settings ",
+  "title": "Extension : Settings ",
   "status": "active",
   "description": "Extension : Questionnaire.item.settings ",
   "fhirVersion": "4.0.1",
@@ -31,7 +31,7 @@
       {
         "id": "Extension",
         "path": "Extension",
-        "short": "Settings ",
+        "short": "Extension : Settings ",
         "definition": "Extension : Questionnaire.item.settings "
       },
       {

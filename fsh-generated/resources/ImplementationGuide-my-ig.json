@@ -56,7 +56,7 @@
         "reference": {
           "reference": "StructureDefinition/questionnaire-s371"
         },
-        "name": "Questionnaire",
+        "name": "Profile : Questionnaire.item extensions",
         "description": "Profile : Questionnaire.item extensions",
         "exampleBoolean": false
       },
@@ -64,23 +64,23 @@
         "reference": {
           "reference": "StructureDefinition/questionnaire-s372"
         },
-        "name": "Questionnaire",
-        "description": "Profile : Questionnaire Value Set Unknown Status",
+        "name": "Profile : Questionnaire Value Set Unknown Status",
+        "description": "S37 Specific Questionnaire Profile",
         "exampleBoolean": false
       },
       {
         "reference": {
           "reference": "StructureDefinition/questionnaire-s373"
         },
-        "name": "Questionnaire",
-        "description": "Profile : Questionnaire String Unknown Status",
+        "name": "Profile : Questionnaire String Unknown Status",
+        "description": "S37 Specific Questionnaire Profile",
         "exampleBoolean": false
       },
       {
         "reference": {
           "reference": "StructureDefinition/settings"
         },
-        "name": "Settings ",
+        "name": "Extension : Settings ",
         "description": "Extension : Questionnaire.item.settings ",
         "exampleBoolean": false
       },

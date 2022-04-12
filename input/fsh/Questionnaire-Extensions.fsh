@@ -1,6 +1,6 @@
 Extension:      Settings
 Id:             settings
-Title:          "Settings "
+Title:          "Extension : Settings "
 Description:     "Extension : Questionnaire.item.settings "
 * ^context.expression = "Questionnaire.item"
 * extension contains

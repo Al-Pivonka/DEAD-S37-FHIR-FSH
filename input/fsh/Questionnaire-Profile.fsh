@@ -1,7 +1,7 @@
 Profile: QuestionnaireS37_1
 Parent: Questionnaire
 Id: questionnaire-s371
-Title: "Questionnaire"
+Title: "Profile : Questionnaire.item extensions"
 Description: "Profile : Questionnaire.item extensions"
 * ^version = "1.0.0"
 * ^status = #active
@@ -21,8 +21,8 @@ Description: "Profile : Questionnaire.item extensions"
 Profile: QuestionnaireS37_2
 Parent: Questionnaire
 Id: questionnaire-s372
-Title: "Questionnaire"
-Description: "Profile : Questionnaire Value Set Unknown Status"
+Title: "Profile : Questionnaire Value Set Unknown Status"
+Description: "S37 Specific Questionnaire Profile"
 * ^version = "1.0.0"
 * ^status = #active
 * ^date = "2022-04-07T10:59:49+00:00"
@@ -39,8 +39,8 @@ Description: "Profile : Questionnaire Value Set Unknown Status"
 Profile: QuestionnaireS37_3
 Parent: Questionnaire
 Id: questionnaire-s373
-Title: "Questionnaire"
-Description: "Profile : Questionnaire String Unknown Status"
+Title: "Profile : Questionnaire String Unknown Status"
+Description: "S37 Specific Questionnaire Profile"
 * ^version = "1.0.0"
 * ^status = #active
 * ^date = "2022-04-07T10:59:49+00:00"

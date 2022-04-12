@@ -1,10 +1,10 @@
 ﻿Science37 FHIR IG : Validation Results
 =========================================
 
-err = 21, warn = 13, info = 3
+err = 21, warn = 12, info = 3
 IG Publisher Version: 1.1.115
-Generated Tue Apr 12 16:55:44 UTC 2022. FHIR version 4.0.1 for xxexample.fhir.uv.myig#0.1.0-test (canonical = http://xxsomewhere.org/fhir/myig)
- Build Errors : 3 / 4 / 0
+Generated Tue Apr 12 16:59:57 UTC 2022. FHIR version 4.0.1 for xxexample.fhir.uv.myig#0.1.0-test (canonical = http://xxsomewhere.org/fhir/myig)
+ Build Errors : 3 / 3 / 0
  /github/workspace/fsh-generated/resources/CodeSystem-questionnaire-status-codesystem : 2 / 0 / 1
  /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example : 5 / 1 / 4
  /github/workspace/fsh-generated/resources/Questionnaire-QuestionnaireS37-Unknown-Status-String-Example : 0 / 1 / 1
@@ -20,7 +20,6 @@ Generated Tue Apr 12 16:55:44 UTC 2022. FHIR version 4.0.1 for xxexample.fhir.uv
 </table>
 == n/a ==
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/unknown-status-string.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/settings.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Questionnaire/Questionnaire-Item-Extension-Example.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/unknown-status-valueset.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Example-form.html: Unable to read attribute on <div> at line 215 column 71
@@ -45,7 +44,7 @@ WARNING: Questionnaire/QuestionnaireS37-Unknown-Status-String-Example: Questionn
 WARNING: Questionnaire/QuestionnaireS37-Unknown-Status-ValueSet-Example: Questionnaire: que-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 == fsh-generated/resources/StructureDefinition-questionnaire-s371.json ==
 ERROR: StructureDefinition.where(url = 'http://science37.com/fhir/StructureDefinition/questionnaire-s371'): Conformance resource /github/workspace/fsh-generated/resources/StructureDefinition-questionnaire-s371.json - the canonical URL (http://xxsomewhere.org/fhir/myig/StructureDefinition/questionnaire-s371) does not match the URL (http://science37.com/fhir/StructureDefinition/questionnaire-s371)
-WARNING: StructureDefinition/questionnaire-s371: StructureDefinition.snapshot.element[33].short: value should not start or finish with whitespace 'Extension...Questionnaire.item.settings '
+WARNING: StructureDefinition/questionnaire-s371: StructureDefinition.snapshot.element[33].short: value should not start or finish with whitespace 'Settings '
 ERROR: /github/workspace/fsh-generated/resources/StructureDefinition-questionnaire-s371: URL Mismatch http://xxsomewhere.org/fhir/myig/StructureDefinition/questionnaire-s371 vs http://science37.com/fhir/StructureDefinition/questionnaire-s371
 == fsh-generated/resources/StructureDefinition-questionnaire-s372.json ==
 ERROR: StructureDefinition.where(url = 'http://science37.com/fhir/StructureDefinition/questionnaire-s372'): Conformance resource /github/workspace/fsh-generated/resources/StructureDefinition-questionnaire-s372.json - the canonical URL (http://xxsomewhere.org/fhir/myig/StructureDefinition/questionnaire-s372) does not match the URL (http://science37.com/fhir/StructureDefinition/questionnaire-s372)
@@ -55,9 +54,9 @@ ERROR: StructureDefinition.where(url = 'http://science37.com/fhir/StructureDefin
 ERROR: /github/workspace/fsh-generated/resources/StructureDefinition-questionnaire-s373: URL Mismatch http://xxsomewhere.org/fhir/myig/StructureDefinition/questionnaire-s373 vs http://science37.com/fhir/StructureDefinition/questionnaire-s373
 == fsh-generated/resources/StructureDefinition-settings.json ==
 ERROR: StructureDefinition.where(url = 'http://science37.com/fhir/StructureDefinition/settings'): Conformance resource /github/workspace/fsh-generated/resources/StructureDefinition-settings.json - the canonical URL (http://xxsomewhere.org/fhir/myig/StructureDefinition/settings) does not match the URL (http://science37.com/fhir/StructureDefinition/settings)
-WARNING: StructureDefinition/settings: StructureDefinition.title: value should not start or finish with whitespace 'Extension...Questionnaire.item.settings '
-WARNING: StructureDefinition/settings: StructureDefinition.snapshot.element[0].short: value should not start or finish with whitespace 'Extension...Questionnaire.item.settings '
-WARNING: StructureDefinition/settings: StructureDefinition.differential.element[0].short: value should not start or finish with whitespace 'Extension...Questionnaire.item.settings '
+WARNING: StructureDefinition/settings: StructureDefinition.title: value should not start or finish with whitespace 'Settings '
+WARNING: StructureDefinition/settings: StructureDefinition.snapshot.element[0].short: value should not start or finish with whitespace 'Settings '
+WARNING: StructureDefinition/settings: StructureDefinition.differential.element[0].short: value should not start or finish with whitespace 'Settings '
 ERROR: /github/workspace/fsh-generated/resources/StructureDefinition-settings: URL Mismatch http://xxsomewhere.org/fhir/myig/StructureDefinition/settings vs http://science37.com/fhir/StructureDefinition/settings
 == fsh-generated/resources/StructureDefinition-unknown-status-string.json ==
 ERROR: StructureDefinition.where(url = 'http://science37.com/fhir/StructureDefinition/unknown-status-string'): Conformance resource /github/workspace/fsh-generated/resources/StructureDefinition-unknown-status-string.json - the canonical URL (http://xxsomewhere.org/fhir/myig/StructureDefinition/unknown-status-string) does not match the URL (http://science37.com/fhir/StructureDefinition/unknown-status-string)
@@ -70,4 +69,4 @@ ERROR: ValueSet.where(url = 'http://science37.com/fhir/ValueSet/questionnaire-un
 ERROR: /github/workspace/fsh-generated/resources/ValueSet-questionnaire-unknown-status-vs: URL Mismatch http://xxsomewhere.org/fhir/myig/ValueSet/questionnaire-unknown-status-vs vs http://science37.com/fhir/ValueSet/questionnaire-unknown-status-vs
 == input/myig.xml ==
 WARNING: ImplementationGuide/xxexample.fhir.uv.myig: ImplementationGuide: ig-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
-WARNING: ImplementationGuide/xxexample.fhir.uv.myig: ImplementationGuide.definition.resource[3].name: value should not start or finish with whitespace 'Extension...Questionnaire.item.settings '
+WARNING: ImplementationGuide/xxexample.fhir.uv.myig: ImplementationGuide.definition.resource[3].name: value should not start or finish with whitespace 'Settings '

@@ -6,7 +6,7 @@
   "extensions": [
     {
       "url": "http://science37.com/fhir/StructureDefinition/settings",
-      "title": "Extension : Questionnaire.item.settings ",
+      "title": "Settings ",
       "types": [
         "string",
         "string",
@@ -311,15 +311,15 @@
     "Questionnaire": [
       {
         "url": "http://science37.com/fhir/StructureDefinition/questionnaire-s371",
-        "title": "Profile : Questionnaire.item extensions"
+        "title": "Questionnaire"
       },
       {
         "url": "http://science37.com/fhir/StructureDefinition/questionnaire-s372",
-        "title": "Profile : Questionnaire Value Set Unknown Status"
+        "title": "Questionnaire"
       },
       {
         "url": "http://science37.com/fhir/StructureDefinition/questionnaire-s373",
-        "title": "Profile : Questionnaire String Unknown Status"
+        "title": "Questionnaire"
       }
     ]
   },

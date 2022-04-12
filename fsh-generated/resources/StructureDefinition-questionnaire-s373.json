@@ -14,7 +14,7 @@
   "url": "http://science37.com/fhir/StructureDefinition/questionnaire-s373",
   "version": "1.0.0",
   "name": "QuestionnaireS37_3",
-  "title": "Profile : Questionnaire String Unknown Status",
+  "title": "Questionnaire",
   "status": "active",
   "date": "2022-04-07T10:59:49+00:00",
   "publisher": "S37 Platform",
@@ -32,7 +32,7 @@
       "name": "Message structure"
     }
   ],
-  "description": "S37 Specific Questionnaire Profile",
+  "description": "Profile : Questionnaire String Unknown Status",
   "fhirVersion": "4.0.1",
   "mapping": [
     {

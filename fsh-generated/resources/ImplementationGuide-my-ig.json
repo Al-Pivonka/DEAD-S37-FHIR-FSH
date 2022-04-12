@@ -56,31 +56,32 @@
         "reference": {
           "reference": "StructureDefinition/questionnaire-s371"
         },
-        "name": "Profile : Questionnaire.item extensions",
-        "description": "S37 Specific Questionnaire Profile",
+        "name": "Questionnaire",
+        "description": "Profile : Questionnaire.item extensions",
         "exampleBoolean": false
       },
       {
         "reference": {
           "reference": "StructureDefinition/questionnaire-s372"
         },
-        "name": "Profile : Questionnaire Value Set Unknown Status",
-        "description": "S37 Specific Questionnaire Profile",
+        "name": "Questionnaire",
+        "description": "Profile : Questionnaire Value Set Unknown Status",
         "exampleBoolean": false
       },
       {
         "reference": {
           "reference": "StructureDefinition/questionnaire-s373"
         },
-        "name": "Profile : Questionnaire String Unknown Status",
-        "description": "S37 Specific Questionnaire Profile",
+        "name": "Questionnaire",
+        "description": "Profile : Questionnaire String Unknown Status",
         "exampleBoolean": false
       },
       {
         "reference": {
           "reference": "StructureDefinition/settings"
         },
-        "name": "Extension : Questionnaire.item ",
+        "name": "Settings ",
+        "description": "Extension : Questionnaire.item.settings ",
         "exampleBoolean": false
       },
       {

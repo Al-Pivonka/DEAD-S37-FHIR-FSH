@@ -1,5 +1,5 @@
-Extension:      S37Settings
-Id:             s37-settings
+Extension:      Settings
+Id:             settings
 Title:          "Extension : Questionnaire.item "
 * ^context.expression = "Questionnaire.item"
 * extension contains

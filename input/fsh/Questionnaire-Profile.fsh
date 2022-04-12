@@ -14,7 +14,7 @@ Description: "S37 Specific Questionnaire Profile"
 *  item.definition 1..1 MS
 *  item.text 1..1 MS
 *  item.required 1..1 MS
-*  item.extension contains S37Settings named Settings 1..1 MS
+*  item.extension contains Settings named Settings 1..1 MS
 
 
 

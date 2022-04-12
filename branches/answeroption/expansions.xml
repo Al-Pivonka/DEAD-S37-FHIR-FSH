@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Bundle xmlns="http://hl7.org/fhir">
+  <id value="36650fab-8f9d-48ae-b8ca-325edc9585b5"/>
+  <meta>
+    <lastUpdated value="2022-04-12T17:29:23.896+00:00"/>
+  </meta>
+  <type value="collection"/>
+  <entry>
+    <fullUrl value="http://science37.com/fhir/ValueSet/questionnaire-unknown-status-vs"/>
+    <resource>
+      <ValueSet>
+        <id value="questionnaire-unknown-status-vs"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 2 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+              <a href="CodeSystem-questionnaire-status-codesystem.html">CodeSystems : Questionnaire Status (unknown) v0.1.0-test (CodeSystem)</a>
+            </p>
+            <p>All codes in this table are from the system 
+              <a href="CodeSystem-questionnaire-status-codesystem.html">
+                <code>http://science37.com/fhir/CodeSystem/questionnaire-status-codesystem</code>
+              </a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---science37.com-fhir-CodeSystem-questionnaire-status-codesystem-deleted"> </a>  
+                  <a href="CodeSystem-questionnaire-status-codesystem.html#questionnaire-status-codesystem-deleted">deleted</a>
+                </td>
+                <td>Deleted</td>
+                <td>Deleted</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---science37.com-fhir-CodeSystem-questionnaire-status-codesystem-rejected"> </a>  
+                  <a href="CodeSystem-questionnaire-status-codesystem.html#questionnaire-status-codesystem-rejected">rejected</a>
+                </td>
+                <td>Rejected</td>
+                <td>Rejected</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://science37.com/fhir/ValueSet/questionnaire-unknown-status-vs"/>
+        <version value="0.1.0-test"/>
+        <name value="QuestionnaireUnknownStatusVS"/>
+        <title value="ValueSet : Questionnaire Unknown Status"/>
+        <status value="active"/>
+        <date value="2022-04-12T17:29:23+00:00"/>
+        <publisher value="xxxYour Work Group"/>
+        <contact>
+          <telecom>
+            <system value="url"/>
+            <value value="http://xxhl7.org/Special/committees/[something]"/>
+          </telecom>
+        </contact>
+        <description value="ValueSet : Questionnaire Unknown Status ValueSet"/>
+        <jurisdiction>
+          <coding>
+            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+            <code value="001"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:ef87ec74-0dc2-4298-9625-c914252ac2fb"/>
+          <timestamp value="2022-04-12T17:29:38+00:00"/>
+          <total value="2"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://science37.com/fhir/CodeSystem/questionnaire-status-codesystem|0.1.0-test"/>
+          </parameter>
+          <contains>
+            <system value="http://science37.com/fhir/CodeSystem/questionnaire-status-codesystem"/>
+            <code value="deleted"/>
+            <display value="Deleted"/>
+          </contains>
+          <contains>
+            <system value="http://science37.com/fhir/CodeSystem/questionnaire-status-codesystem"/>
+            <code value="rejected"/>
+            <display value="Rejected"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+</Bundle>

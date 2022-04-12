@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="questionnaire-status-codesystem"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system http://science37.com/fhir/CodeSystem/questionnaire-status-codesystem defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">deleted<a name="questionnaire-status-codesystem-deleted"> </a></td><td>Deleted</td><td>Deleted</td></tr><tr><td style="white-space:nowrap">rejected<a name="questionnaire-status-codesystem-rejected"> </a></td><td>Rejected</td><td>Rejected</td></tr></table></div>
+  </text>
+  <url value="http://science37.com/fhir/CodeSystem/questionnaire-status-codesystem"/>
+  <version value="0.1.0-test"/>
+  <name value="S37QuestionnaireStatusCodeSystem"/>
+  <title value="CodeSystems : Questionnaire Status (unknown)"/>
+  <status value="active"/>
+  <date value="2022-04-12T17:29:23+00:00"/>
+  <publisher value="xxxYour Work Group"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="http://xxhl7.org/Special/committees/[something]"/>
+    </telecom>
+  </contact>
+  <description value="CodeSystems : Questionnaire Status (unknown)"/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="2"/>
+  <concept>
+    <code value="deleted"/>
+    <display value="Deleted"/>
+    <definition value="Deleted"/>
+  </concept>
+  <concept>
+    <code value="rejected"/>
+    <display value="Rejected"/>
+    <definition value="Rejected"/>
+  </concept>
+</CodeSystem>
